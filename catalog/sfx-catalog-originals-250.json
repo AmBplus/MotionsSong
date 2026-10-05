@@ -8,7 +8,7 @@
     "license": "CC0-1.0 only"
   },
   "requested_count": 240,
-  "count": 154,
+  "count": 153,
   "category_targets": {
     "whoosh": 18,
     "slide_swipe": 18,
@@ -36,7 +36,7 @@
   "category_actual": {
     "whoosh": 18,
     "slide_swipe": 14,
-    "click": 17,
+    "click": 16,
     "tick_check": 6,
     "pop_appear": 10,
     "ding_notification": 8,
@@ -58,148 +58,6 @@
   "items": [
     {
       "id": 1,
-      "category": "whoosh",
-      "slug": "short-video-swoosh-01",
-      "title": "Short Video Swoosh 01",
-      "description": "A swoosh sound. Use it for quick transitions, or for text and logo animations, in videos and apps.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "swoosh",
-      "tags": [
-        "swoosh",
-        "video",
-        "short",
-        "one shot",
-        "edited"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/short-video-swoosh-01",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/short-video-swoosh-01.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 79458,
-        "duration_sec": 0.45
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/short-video-swoosh-01.mp3",
-      "duration_ms": 450,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 230,
-        "tail_ms": 200,
-        "centroid_hz": 2098,
-        "character": [
-          "balanced",
-          "gradual",
-          "short decay"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/short-video-swoosh-01.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "450ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 2,
-      "category": "whoosh",
-      "slug": "short-video-whoosh-01",
-      "title": "Short Video Whoosh 01",
-      "description": "A whoosh sound. Use it for transitions and fast motion in videos and games.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "whoosh",
-      "tags": [
-        "whoosh",
-        "video",
-        "short",
-        "one shot",
-        "edited"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/short-video-whoosh-01",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/short-video-whoosh-01.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 97098,
-        "duration_sec": 0.55
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/short-video-whoosh-01.mp3",
-      "duration_ms": 550,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 160,
-        "tail_ms": 360,
-        "centroid_hz": 2491,
-        "character": [
-          "balanced",
-          "gradual",
-          "short decay"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/short-video-whoosh-01.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "550ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 3,
       "category": "whoosh",
       "slug": "ui-modal-close-32",
       "title": "Quick Swoosh Modal Dialog Close 32",
@@ -272,7 +130,7 @@
       "requires_login": false
     },
     {
-      "id": 4,
+      "id": 2,
       "category": "whoosh",
       "slug": "ui-delete-15",
       "title": "Muted Interface Delete Swoosh 15",
@@ -340,7 +198,7 @@
       "requires_login": false
     },
     {
-      "id": 5,
+      "id": 3,
       "category": "whoosh",
       "slug": "ui-swipe-22",
       "title": "Soft Interface Swipe Whoosh 22",
@@ -412,7 +270,7 @@
       "requires_login": false
     },
     {
-      "id": 6,
+      "id": 4,
       "category": "whoosh",
       "slug": "transition-swoosh-39",
       "title": "Sharp Fabric Swoosh 39",
@@ -479,7 +337,7 @@
       "requires_login": false
     },
     {
-      "id": 7,
+      "id": 5,
       "category": "whoosh",
       "slug": "ui-send-14",
       "title": "Subtle Message Sent Whoosh 14",
@@ -547,288 +405,7 @@
       "requires_login": false
     },
     {
-      "id": 8,
-      "category": "whoosh",
-      "slug": "magic-scifi-rocket-01",
-      "title": "Quick Rocket Launch Whoosh 01",
-      "description": "A rocket launch sound. Use it for rockets and missiles, or for space launches, in games and videos.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "whoosh",
-      "tags": [
-        "distant",
-        "magic-scifi",
-        "quick",
-        "rich",
-        "rocket"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/magic-scifi-rocket-01",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/magic-scifi-rocket-01.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 352878,
-        "duration_sec": 2.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/magic-scifi-rocket-01.mp3",
-      "duration_ms": 2000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 470,
-        "tail_ms": 640,
-        "centroid_hz": 1675,
-        "character": [
-          "balanced",
-          "gradual",
-          "short decay"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/magic-scifi-rocket-01.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "2000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 9,
-      "category": "whoosh",
-      "slug": "magic-scifi-portal-32",
-      "title": "Opening Whoosh Magic Portal 32",
-      "description": "A bright magic portal sound. Use it for portals and warps, or for level transitions, in games and videos.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "whoosh",
-      "tags": [
-        "close",
-        "dry",
-        "magic-scifi",
-        "opening",
-        "portal",
-        "warm"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/magic-scifi-portal-32",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/magic-scifi-portal-32.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 352878,
-        "duration_sec": 2.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/magic-scifi-portal-32.mp3",
-      "duration_ms": 2000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 460,
-        "tail_ms": 610,
-        "centroid_hz": 5391,
-        "character": [
-          "bright",
-          "gradual",
-          "short decay"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/magic-scifi-portal-32.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "2000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 10,
-      "category": "whoosh",
-      "slug": "short-ui-swipe-03",
-      "title": "Short UI Swipe 03",
-      "description": "A swipe sound. Use it for page transitions and carousels in apps.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "whoosh",
-      "tags": [
-        "short",
-        "ui",
-        "swipe",
-        "one shot",
-        "edited",
-        "whoosh"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/short-ui-swipe-03",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/short-ui-swipe-03.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 352878,
-        "duration_sec": 2.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/short-ui-swipe-03.mp3",
-      "duration_ms": 2000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": null,
-        "tail_ms": null,
-        "centroid_hz": null,
-        "character": []
-      },
-      "peaks_url": "https://sfxmint.com/peaks/short-ui-swipe-03.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "2000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 11,
-      "category": "whoosh",
-      "slug": "ui-modal-19",
-      "title": "Rising Whoosh Modal Dialog Open 19",
-      "description": "A modal open sound. Use it for opening dialogs and pop-ups in apps.",
-      "semantic_use": [
-        "whoosh"
-      ],
-      "matched_query": "whoosh",
-      "tags": [
-        "rising",
-        "whoosh",
-        "modal",
-        "dialog",
-        "open",
-        "air",
-        "crisp",
-        "ui"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/ui-modal-19",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/ui-modal-19.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 352878,
-        "duration_sec": 2.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/ui-modal-19.mp3",
-      "duration_ms": 2000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": null,
-        "tail_ms": null,
-        "centroid_hz": null,
-        "character": []
-      },
-      "peaks_url": "https://sfxmint.com/peaks/ui-modal-19.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 3000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "2000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 12,
+      "id": 6,
       "category": "whoosh",
       "slug": "ui-send-16",
       "title": "Airy Message Sent Whoosh 16",
@@ -897,7 +474,7 @@
       "requires_login": false
     },
     {
-      "id": 13,
+      "id": 7,
       "category": "whoosh",
       "slug": "transition-whoosh-03",
       "title": "Slow Deep Air Whoosh Transition 03",
@@ -905,7 +482,7 @@
       "semantic_use": [
         "whoosh"
       ],
-      "matched_query": "whoosh",
+      "matched_query": "transition whoosh",
       "tags": [
         "close",
         "deep",
@@ -969,29 +546,27 @@
       "requires_login": false
     },
     {
-      "id": 14,
+      "id": 8,
       "category": "whoosh",
-      "slug": "fire-electric-whoosh-flame-66",
-      "title": "Fireball Flame Whoosh Burst 66",
-      "description": "A fire whoosh sound. Use it for fire spells and fireballs, or for flame bursts, in games and videos.",
+      "slug": "short-video-whoosh-01",
+      "title": "Short Video Whoosh 01",
+      "description": "A whoosh sound. Use it for transitions and fast motion in videos and games.",
       "semantic_use": [
         "whoosh"
       ],
-      "matched_query": "whoosh",
+      "matched_query": "transition whoosh",
       "tags": [
-        "fireball",
-        "flame",
         "whoosh",
-        "burst",
-        "bright",
-        "fire-electric",
-        "whoosh-flame"
+        "video",
+        "short",
+        "one shot",
+        "edited"
       ],
       "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/fire-electric-whoosh-flame-66",
+      "source_page": "https://sfxmint.com/sounds/short-video-whoosh-01",
       "license": "CC0-1.0",
       "original_file": {
-        "url": "https://sfxmint.com/dl/fire-electric-whoosh-flame-66.wav",
+        "url": "https://sfxmint.com/dl/short-video-whoosh-01.wav",
         "format": "WAV",
         "format_name": "wav",
         "codec": "pcm_s16le",
@@ -1000,20 +575,24 @@
         "bits_per_sample": 16,
         "sample_fmt": "s16",
         "bit_rate_bps": 1411200,
-        "size_bytes": 529278,
-        "duration_sec": 3.0
+        "size_bytes": 97098,
+        "duration_sec": 0.55
       },
-      "alternate_mp3_url": "https://sfxmint.com/dl/fire-electric-whoosh-flame-66.mp3",
-      "duration_ms": 3000,
+      "alternate_mp3_url": "https://sfxmint.com/dl/short-video-whoosh-01.mp3",
+      "duration_ms": 550,
       "loopable": false,
       "loop_status": "not_requested",
       "acoustics": {
-        "attack_ms": null,
-        "tail_ms": null,
-        "centroid_hz": null,
-        "character": []
+        "attack_ms": 160,
+        "tail_ms": 360,
+        "centroid_hz": 2491,
+        "character": [
+          "balanced",
+          "gradual",
+          "short decay"
+        ]
       },
-      "peaks_url": "https://sfxmint.com/peaks/fire-electric-whoosh-flame-66.json",
+      "peaks_url": "https://sfxmint.com/peaks/short-video-whoosh-01.json",
       "family": null,
       "family_url": null,
       "checks": [
@@ -1025,7 +604,7 @@
           "requirement": "delivered wav duration <= 3000ms",
           "state": "satisfied",
           "hard": true,
-          "evidence": "3000ms"
+          "evidence": "550ms"
         },
         {
           "requirement": "WAV available and decodable",
@@ -1038,7 +617,7 @@
       "requires_login": false
     },
     {
-      "id": 15,
+      "id": 9,
       "category": "whoosh",
       "slug": "short-video-whoosh-04",
       "title": "Short Video Whoosh 04",
@@ -1105,7 +684,7 @@
       "requires_login": false
     },
     {
-      "id": 16,
+      "id": 10,
       "category": "whoosh",
       "slug": "short-ui-swipe-05",
       "title": "Short UI Swipe 05",
@@ -1173,7 +752,7 @@
       "requires_login": false
     },
     {
-      "id": 17,
+      "id": 11,
       "category": "whoosh",
       "slug": "magic-scifi-rocket-19",
       "title": "Sputtering Rocket Launch Whoosh 19",
@@ -1240,7 +819,7 @@
       "requires_login": false
     },
     {
-      "id": 18,
+      "id": 12,
       "category": "whoosh",
       "slug": "magic-scifi-portal-48",
       "title": "Opening Whoosh Magic Portal 48",
@@ -1295,6 +874,425 @@
           "state": "satisfied",
           "hard": true,
           "evidence": "3000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 13,
+      "category": "whoosh",
+      "slug": "fire-electric-whoosh-flame-66",
+      "title": "Fireball Flame Whoosh Burst 66",
+      "description": "A fire whoosh sound. Use it for fire spells and fireballs, or for flame bursts, in games and videos.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "fireball",
+        "flame",
+        "whoosh",
+        "burst",
+        "bright",
+        "fire-electric",
+        "whoosh-flame"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/fire-electric-whoosh-flame-66",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/fire-electric-whoosh-flame-66.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 529278,
+        "duration_sec": 3.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/fire-electric-whoosh-flame-66.mp3",
+      "duration_ms": 3000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/fire-electric-whoosh-flame-66.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "3000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 14,
+      "category": "whoosh",
+      "slug": "transition-sweep-41",
+      "title": "Upward Frequency Sweep Transition 41",
+      "description": "A sweep transition sound. Use it for transitions and scene changes in videos.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "upward",
+        "frequency",
+        "sweep",
+        "transition",
+        "rich"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/transition-sweep-41",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/transition-sweep-41.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 529278,
+        "duration_sec": 3.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/transition-sweep-41.mp3",
+      "duration_ms": 3000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/transition-sweep-41.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "3000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 15,
+      "category": "whoosh",
+      "slug": "ui-swipe-05",
+      "title": "Quick Airy Interface Swipe Whoosh 05",
+      "description": "A swipe sound. Use it for page transitions and carousels in apps.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "quick",
+        "reverb",
+        "rich",
+        "room",
+        "swipe",
+        "ui"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ui-swipe-05",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ui-swipe-05.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 176478,
+        "duration_sec": 1.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ui-swipe-05.mp3",
+      "duration_ms": 1000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 110,
+        "tail_ms": 210,
+        "centroid_hz": 2812,
+        "character": [
+          "balanced",
+          "fast attack",
+          "short decay"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ui-swipe-05.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "1000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 16,
+      "category": "whoosh",
+      "slug": "magic-scifi-portal-32",
+      "title": "Opening Whoosh Magic Portal 32",
+      "description": "A bright magic portal sound. Use it for portals and warps, or for level transitions, in games and videos.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "close",
+        "dry",
+        "magic-scifi",
+        "opening",
+        "portal",
+        "warm"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/magic-scifi-portal-32",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/magic-scifi-portal-32.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/magic-scifi-portal-32.mp3",
+      "duration_ms": 2000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 460,
+        "tail_ms": 610,
+        "centroid_hz": 5391,
+        "character": [
+          "bright",
+          "gradual",
+          "short decay"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/magic-scifi-portal-32.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 17,
+      "category": "whoosh",
+      "slug": "magic-scifi-rocket-01",
+      "title": "Quick Rocket Launch Whoosh 01",
+      "description": "A rocket launch sound. Use it for rockets and missiles, or for space launches, in games and videos.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "distant",
+        "magic-scifi",
+        "quick",
+        "rich",
+        "rocket"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/magic-scifi-rocket-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/magic-scifi-rocket-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/magic-scifi-rocket-01.mp3",
+      "duration_ms": 2000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 470,
+        "tail_ms": 640,
+        "centroid_hz": 1675,
+        "character": [
+          "balanced",
+          "gradual",
+          "short decay"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/magic-scifi-rocket-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 18,
+      "category": "whoosh",
+      "slug": "short-ui-swipe-03",
+      "title": "Short UI Swipe 03",
+      "description": "A swipe sound. Use it for page transitions and carousels in apps.",
+      "semantic_use": [
+        "whoosh"
+      ],
+      "matched_query": "transition whoosh",
+      "tags": [
+        "short",
+        "ui",
+        "swipe",
+        "one shot",
+        "edited",
+        "whoosh"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/short-ui-swipe-03",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/short-ui-swipe-03.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/short-ui-swipe-03.mp3",
+      "duration_ms": 2000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/short-ui-swipe-03.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 3000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
         },
         {
           "requirement": "WAV available and decodable",
@@ -3323,78 +3321,6 @@
     },
     {
       "id": 49,
-      "category": "click",
-      "slug": "ui-swipe-05",
-      "title": "Quick Airy Interface Swipe Whoosh 05",
-      "description": "A swipe sound. Use it for page transitions and carousels in apps.",
-      "semantic_use": [
-        "click"
-      ],
-      "matched_query": "interface click",
-      "tags": [
-        "quick",
-        "reverb",
-        "rich",
-        "room",
-        "swipe",
-        "ui"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/ui-swipe-05",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/ui-swipe-05.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 176478,
-        "duration_sec": 1.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/ui-swipe-05.mp3",
-      "duration_ms": 1000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 110,
-        "tail_ms": 210,
-        "centroid_hz": 2812,
-        "character": [
-          "balanced",
-          "fast attack",
-          "short decay"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/ui-swipe-05.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 1500ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "1000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 50,
       "category": "tick_check",
       "slug": "feedback-confirm-47",
       "title": "Double Positive Confirmation Tone 47",
@@ -3462,7 +3388,7 @@
       "requires_login": false
     },
     {
-      "id": 51,
+      "id": 50,
       "category": "tick_check",
       "slug": "feedback-success-67",
       "title": "Double-Note Confirm Success Chime 67",
@@ -3529,7 +3455,7 @@
       "requires_login": false
     },
     {
-      "id": 52,
+      "id": 51,
       "category": "tick_check",
       "slug": "ui-tick-16",
       "title": "Wooden Picker Wheel Detent Tick 16",
@@ -3598,7 +3524,7 @@
       "requires_login": false
     },
     {
-      "id": 53,
+      "id": 52,
       "category": "tick_check",
       "slug": "ui-hover-10",
       "title": "Soft Interface Hover Tick 10 (No Reverb)",
@@ -3666,7 +3592,7 @@
       "requires_login": false
     },
     {
-      "id": 54,
+      "id": 53,
       "category": "tick_check",
       "slug": "owner-continuous-20260922-arcade-ball-brick-hit",
       "title": "Crisp Arcade Brick Impact",
@@ -3732,7 +3658,7 @@
       "requires_login": false
     },
     {
-      "id": 55,
+      "id": 54,
       "category": "tick_check",
       "slug": "acoustic-drum-kit-closed-hat-01",
       "title": "Closed Hi-Hat — Single Hit",
@@ -3801,7 +3727,7 @@
       "requires_login": false
     },
     {
-      "id": 56,
+      "id": 55,
       "category": "pop_appear",
       "slug": "owner-continuous-20260922-speech-pop",
       "title": "Voice Saying Pop",
@@ -3866,7 +3792,7 @@
       "requires_login": false
     },
     {
-      "id": 57,
+      "id": 56,
       "category": "pop_appear",
       "slug": "cartoon-pop-53",
       "title": "Tiny Cartoon Pop 53",
@@ -3932,7 +3858,7 @@
       "requires_login": false
     },
     {
-      "id": 58,
+      "id": 57,
       "category": "pop_appear",
       "slug": "feedback-merge-03",
       "title": "Sparkling Tile Merge Pop Chime 03",
@@ -4004,7 +3930,7 @@
       "requires_login": false
     },
     {
-      "id": 59,
+      "id": 58,
       "category": "pop_appear",
       "slug": "owner-backlog-20260922-sparkle-pop-pickup",
       "title": "Sparkling Pop Power-Up Pickup",
@@ -4071,7 +3997,7 @@
       "requires_login": false
     },
     {
-      "id": 60,
+      "id": 59,
       "category": "pop_appear",
       "slug": "ui-pop-31",
       "title": "Tiny Interface Pop 31 (No Reverb)",
@@ -4137,7 +4063,7 @@
       "requires_login": false
     },
     {
-      "id": 61,
+      "id": 60,
       "category": "pop_appear",
       "slug": "ready-pop-04",
       "title": "UI pop 04",
@@ -4203,7 +4129,7 @@
       "requires_login": false
     },
     {
-      "id": 62,
+      "id": 61,
       "category": "pop_appear",
       "slug": "feedback-merge-09",
       "title": "Soft Tile Merge Pop Chime 09",
@@ -4276,7 +4202,7 @@
       "requires_login": false
     },
     {
-      "id": 63,
+      "id": 62,
       "category": "pop_appear",
       "slug": "cartoon-pop-01",
       "title": "Cork Cartoon Pop 01",
@@ -4353,7 +4279,7 @@
       "requires_login": false
     },
     {
-      "id": 64,
+      "id": 63,
       "category": "pop_appear",
       "slug": "futuristic-ui-button-chime-01",
       "title": "Futuristic UI Button Chime 01",
@@ -4419,7 +4345,7 @@
       "requires_login": false
     },
     {
-      "id": 65,
+      "id": 64,
       "category": "pop_appear",
       "slug": "short-ui-confirm-03",
       "title": "Short UI Confirm 03 (No Reverb)",
@@ -4488,7 +4414,7 @@
       "requires_login": false
     },
     {
-      "id": 66,
+      "id": 65,
       "category": "ding_notification",
       "slug": "owner-2026-09-22-short-confirmation",
       "title": "Soft Digital Confirmation Chime",
@@ -4496,7 +4422,7 @@
       "semantic_use": [
         "ding_notification"
       ],
-      "matched_query": "notification",
+      "matched_query": "chime",
       "tags": [
         "soft",
         "digital",
@@ -4554,7 +4480,7 @@
       "requires_login": false
     },
     {
-      "id": 67,
+      "id": 66,
       "category": "ding_notification",
       "slug": "short-video-ding-01",
       "title": "Short Video Ding 01",
@@ -4562,7 +4488,7 @@
       "semantic_use": [
         "ding_notification"
       ],
-      "matched_query": "notification",
+      "matched_query": "chime",
       "tags": [
         "ding",
         "video",
@@ -4627,7 +4553,7 @@
       "requires_login": false
     },
     {
-      "id": 68,
+      "id": 67,
       "category": "ding_notification",
       "slug": "ui-chime-14",
       "title": "Glassy Notification Chime 14",
@@ -4635,7 +4561,7 @@
       "semantic_use": [
         "ding_notification"
       ],
-      "matched_query": "notification",
+      "matched_query": "chime",
       "tags": [
         "chime",
         "dry",
@@ -4699,7 +4625,7 @@
       "requires_login": false
     },
     {
-      "id": 69,
+      "id": 68,
       "category": "ding_notification",
       "slug": "office-phone-vibrate-58",
       "title": "Double Notification Phone Vibrating 58",
@@ -4768,7 +4694,7 @@
       "requires_login": false
     },
     {
-      "id": 70,
+      "id": 69,
       "category": "ding_notification",
       "slug": "ready-success-04",
       "title": "Success cue 04",
@@ -4834,26 +4760,26 @@
       "requires_login": false
     },
     {
-      "id": 71,
+      "id": 70,
       "category": "ding_notification",
-      "slug": "ui-alert-42",
-      "title": "Insistent Alert Tone 42",
-      "description": "An alert sound. Use it for warnings and actions that need attention in apps.",
+      "slug": "ready-chime-04",
+      "title": "Notification chime 04",
+      "description": "A notification chime sound. Use it for new messages and in-app notifications in apps.",
       "semantic_use": [
         "ding_notification"
       ],
-      "matched_query": "notification",
+      "matched_query": "chime",
       "tags": [
-        "insistent",
-        "alert",
-        "tone",
-        "ui"
+        "notification",
+        "chime",
+        "procedural",
+        "ready"
       ],
       "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/ui-alert-42",
+      "source_page": "https://sfxmint.com/sounds/ready-chime-04",
       "license": "CC0-1.0",
       "original_file": {
-        "url": "https://sfxmint.com/dl/ui-alert-42.wav",
+        "url": "https://sfxmint.com/dl/ready-chime-04.wav",
         "format": "WAV",
         "format_name": "wav",
         "codec": "pcm_s16le",
@@ -4865,7 +4791,7 @@
         "size_bytes": 352878,
         "duration_sec": 2.0
       },
-      "alternate_mp3_url": "https://sfxmint.com/dl/ui-alert-42.mp3",
+      "alternate_mp3_url": "https://sfxmint.com/dl/ready-chime-04.mp3",
       "duration_ms": 2000,
       "loopable": false,
       "loop_status": "not_requested",
@@ -4875,7 +4801,75 @@
         "centroid_hz": null,
         "character": []
       },
-      "peaks_url": "https://sfxmint.com/peaks/ui-alert-42.json",
+      "peaks_url": "https://sfxmint.com/peaks/ready-chime-04.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 2500ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 71,
+      "category": "ding_notification",
+      "slug": "feedback-success-73",
+      "title": "Warm Gentle Success Chime 73",
+      "description": "A success chime sound. Use it for completed tasks and save or payment confirmations in apps and games.",
+      "semantic_use": [
+        "ding_notification"
+      ],
+      "matched_query": "chime",
+      "tags": [
+        "warm",
+        "gentle",
+        "success",
+        "chime",
+        "feedback",
+        "rich"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/feedback-success-73",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/feedback-success-73.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/feedback-success-73.mp3",
+      "duration_ms": 2000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/feedback-success-73.json",
       "family": null,
       "family_url": null,
       "checks": [
@@ -4902,27 +4896,25 @@
     {
       "id": 72,
       "category": "ding_notification",
-      "slug": "instrument-chime-bar-36",
-      "title": "Warm Vibraphone-Style Chime Bar Strike 36",
-      "description": "A chime bar sound. Use it for magical moments and rewards in games, apps and videos.",
+      "slug": "feedback-checkpoint-19",
+      "title": "Soft Checkpoint Reached Chime 19",
+      "description": "A checkpoint chime sound. Use it for reaching checkpoints and saved progress in games.",
       "semantic_use": [
         "ding_notification"
       ],
-      "matched_query": "notification",
+      "matched_query": "chime",
       "tags": [
-        "warm",
-        "vibraphone-style",
+        "soft",
+        "checkpoint",
+        "reached",
         "chime",
-        "bar",
-        "strike",
-        "chime-bar",
-        "instrument"
+        "feedback"
       ],
       "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/instrument-chime-bar-36",
+      "source_page": "https://sfxmint.com/sounds/feedback-checkpoint-19",
       "license": "CC0-1.0",
       "original_file": {
-        "url": "https://sfxmint.com/dl/instrument-chime-bar-36.wav",
+        "url": "https://sfxmint.com/dl/feedback-checkpoint-19.wav",
         "format": "WAV",
         "format_name": "wav",
         "codec": "pcm_s16le",
@@ -4934,7 +4926,7 @@
         "size_bytes": 352878,
         "duration_sec": 2.0
       },
-      "alternate_mp3_url": "https://sfxmint.com/dl/instrument-chime-bar-36.mp3",
+      "alternate_mp3_url": "https://sfxmint.com/dl/feedback-checkpoint-19.mp3",
       "duration_ms": 2000,
       "loopable": false,
       "loop_status": "not_requested",
@@ -4944,7 +4936,7 @@
         "centroid_hz": null,
         "character": []
       },
-      "peaks_url": "https://sfxmint.com/peaks/instrument-chime-bar-36.json",
+      "peaks_url": "https://sfxmint.com/peaks/feedback-checkpoint-19.json",
       "family": null,
       "family_url": null,
       "checks": [
@@ -4970,72 +4962,6 @@
     },
     {
       "id": 73,
-      "category": "ding_notification",
-      "slug": "ready-alert-04",
-      "title": "Alert tone 04",
-      "description": "An alert sound. Use it for warnings and actions that need attention in apps.",
-      "semantic_use": [
-        "ding_notification"
-      ],
-      "matched_query": "notification",
-      "tags": [
-        "alert",
-        "tone",
-        "procedural",
-        "ready"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/ready-alert-04",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/ready-alert-04.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 352878,
-        "duration_sec": 2.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/ready-alert-04.mp3",
-      "duration_ms": 2000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": null,
-        "tail_ms": null,
-        "centroid_hz": null,
-        "character": []
-      },
-      "peaks_url": "https://sfxmint.com/peaks/ready-alert-04.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 2500ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "2000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 74,
       "category": "impact_hit",
       "slug": "owner-2026-09-22-short-small-metal",
       "title": "Small Tinny Metal Impact",
@@ -5101,7 +5027,7 @@
       "requires_login": false
     },
     {
-      "id": 75,
+      "id": 74,
       "category": "impact_hit",
       "slug": "short-video-impact-01",
       "title": "Short Video Impact 01",
@@ -5173,7 +5099,7 @@
       "requires_login": false
     },
     {
-      "id": 76,
+      "id": 75,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-pedal-hat-01",
       "title": "Pedal Hi-Hat Chick — Single Hit",
@@ -5248,7 +5174,7 @@
       "requires_login": false
     },
     {
-      "id": 77,
+      "id": 76,
       "category": "impact_hit",
       "slug": "impact-punch-05",
       "title": "Meaty Punch Impact 05",
@@ -5320,7 +5246,7 @@
       "requires_login": false
     },
     {
-      "id": 78,
+      "id": 77,
       "category": "impact_hit",
       "slug": "retro-game-hit-02",
       "title": "Short Zap Retro Game Hit 02",
@@ -5398,7 +5324,7 @@
       "requires_login": false
     },
     {
-      "id": 79,
+      "id": 78,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-kick-01",
       "title": "Acoustic Kick Drum — Single Hit",
@@ -5473,7 +5399,7 @@
       "requires_login": false
     },
     {
-      "id": 80,
+      "id": 79,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-snare-01",
       "title": "Acoustic Snare Drum — Single Hit",
@@ -5548,7 +5474,7 @@
       "requires_login": false
     },
     {
-      "id": 81,
+      "id": 80,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-snare-rimshot-01",
       "title": "Snare Rimshot — Single Hit",
@@ -5623,7 +5549,7 @@
       "requires_login": false
     },
     {
-      "id": 82,
+      "id": 81,
       "category": "impact_hit",
       "slug": "growth-a673083d0564c391f4589f14-part-1-v1",
       "title": "Reverse Impact",
@@ -5687,7 +5613,7 @@
       "requires_login": false
     },
     {
-      "id": 83,
+      "id": 82,
       "category": "impact_hit",
       "slug": "impact-metal-hit-37",
       "title": "Ringing Metal Impact 37 (No Reverb)",
@@ -5753,7 +5679,7 @@
       "requires_login": false
     },
     {
-      "id": 84,
+      "id": 83,
       "category": "impact_hit",
       "slug": "growth-7873eb332dc27e6b4d444a3e-retry",
       "title": "Deep Sub Trailer Impact Boom",
@@ -5820,7 +5746,7 @@
       "requires_login": false
     },
     {
-      "id": 85,
+      "id": 84,
       "category": "impact_hit",
       "slug": "growth-9557345277880cc1b1e3751f-retry",
       "title": "Echoing Trailer Impact Boom",
@@ -5886,7 +5812,7 @@
       "requires_login": false
     },
     {
-      "id": 86,
+      "id": 85,
       "category": "boom_sub",
       "slug": "impact-metal-hit-57",
       "title": "Sharp Metal Impact 57 (No Reverb)",
@@ -5953,7 +5879,7 @@
       "requires_login": false
     },
     {
-      "id": 87,
+      "id": 86,
       "category": "boom_sub",
       "slug": "impact-punch-54",
       "title": "Solid Punch Impact 54",
@@ -6019,7 +5945,7 @@
       "requires_login": false
     },
     {
-      "id": 88,
+      "id": 87,
       "category": "boom_sub",
       "slug": "impact-explosion-17",
       "title": "Big Cinematic Explosion Blast 17",
@@ -6086,7 +6012,7 @@
       "requires_login": false
     },
     {
-      "id": 89,
+      "id": 88,
       "category": "boom_sub",
       "slug": "transition-impact-hit-61",
       "title": "Punchy Trailer Impact Boom 61",
@@ -6155,7 +6081,7 @@
       "requires_login": false
     },
     {
-      "id": 90,
+      "id": 89,
       "category": "boom_sub",
       "slug": "transition-impact-hit-56",
       "title": "Deep Sub Trailer Impact Boom 56",
@@ -6225,7 +6151,7 @@
       "requires_login": false
     },
     {
-      "id": 91,
+      "id": 90,
       "category": "boom_sub",
       "slug": "impact-explosion-02",
       "title": "Short Explosion Blast 02",
@@ -6297,7 +6223,7 @@
       "requires_login": false
     },
     {
-      "id": 92,
+      "id": 91,
       "category": "boom_sub",
       "slug": "magic-scifi-shield-65",
       "title": "Impact Deflection Energy Shield 65",
@@ -6365,7 +6291,7 @@
       "requires_login": false
     },
     {
-      "id": 93,
+      "id": 92,
       "category": "boom_sub",
       "slug": "transition-impact-hit-54",
       "title": "Deep Sub Trailer Impact Boom 54",
@@ -6434,7 +6360,7 @@
       "requires_login": false
     },
     {
-      "id": 94,
+      "id": 93,
       "category": "riser_reverse",
       "slug": "transition-riser-01",
       "title": "Synthetic Cinematic Riser 01",
@@ -6506,7 +6432,7 @@
       "requires_login": false
     },
     {
-      "id": 95,
+      "id": 94,
       "category": "riser_reverse",
       "slug": "growth-fb1fde516ce90e9710048635-part-1-v1",
       "title": "Reverse Cymbal Swell",
@@ -6571,7 +6497,7 @@
       "requires_login": false
     },
     {
-      "id": 96,
+      "id": 95,
       "category": "riser_reverse",
       "slug": "reuse-a2a1ba7529489390f0002824",
       "title": "132 BPM Riser",
@@ -6635,7 +6561,7 @@
       "requires_login": false
     },
     {
-      "id": 97,
+      "id": 96,
       "category": "riser_reverse",
       "slug": "growth-5a008d99eaae3b19327c6585-part-1-v1",
       "title": "Soft Airy Riser",
@@ -6700,7 +6626,7 @@
       "requires_login": false
     },
     {
-      "id": 98,
+      "id": 97,
       "category": "typing_keyboard",
       "slug": "owner-continuous-20260922-iphone-typing",
       "title": "Synthetic Touchscreen Keyboard Typing",
@@ -6766,7 +6692,7 @@
       "requires_login": false
     },
     {
-      "id": 99,
+      "id": 98,
       "category": "typing_keyboard",
       "slug": "ui-typing-08",
       "title": "Playful Typing Indicator Dots Tick 08",
@@ -6835,7 +6761,7 @@
       "requires_login": false
     },
     {
-      "id": 100,
+      "id": 99,
       "category": "typing_keyboard",
       "slug": "growth-1f0302639937a62618ccf697-part-1-v1",
       "title": "Quiet Mechanical Keyboard Typing",
@@ -6901,7 +6827,7 @@
       "requires_login": false
     },
     {
-      "id": 101,
+      "id": 100,
       "category": "typing_keyboard",
       "slug": "office-keyboard-33",
       "title": "Single Keypress Keyboard Typing 33",
@@ -6909,7 +6835,7 @@
       "semantic_use": [
         "typing_keyboard"
       ],
-      "matched_query": "keypress",
+      "matched_query": "typing",
       "tags": [
         "dry",
         "keyboard",
@@ -6973,7 +6899,7 @@
       "requires_login": false
     },
     {
-      "id": 102,
+      "id": 101,
       "category": "typing_keyboard",
       "slug": "spacebar-press-01",
       "title": "Spacebar Press 01",
@@ -7037,7 +6963,7 @@
       "requires_login": false
     },
     {
-      "id": 103,
+      "id": 102,
       "category": "drawing_writing",
       "slug": "office-pen-17",
       "title": "Writing Scribble On Paper Pen Clicking 17",
@@ -7108,7 +7034,7 @@
       "requires_login": false
     },
     {
-      "id": 104,
+      "id": 103,
       "category": "camera",
       "slug": "growth-c29e9ce0ab7d75ef75ecd123-part-1-v1",
       "title": "Camera Flash Recharge",
@@ -7173,7 +7099,7 @@
       "requires_login": false
     },
     {
-      "id": 105,
+      "id": 104,
       "category": "camera",
       "slug": "office-camera-08",
       "title": "Single Dslr Camera Shutter 08",
@@ -7245,7 +7171,7 @@
       "requires_login": false
     },
     {
-      "id": 106,
+      "id": 105,
       "category": "camera",
       "slug": "camera-focus-motor-01",
       "title": "Camera Focus Motor 01",
@@ -7310,7 +7236,7 @@
       "requires_login": false
     },
     {
-      "id": 107,
+      "id": 106,
       "category": "camera",
       "slug": "camera-zoom-motor-01",
       "title": "Camera Zoom Motor 01",
@@ -7375,7 +7301,7 @@
       "requires_login": false
     },
     {
-      "id": 108,
+      "id": 107,
       "category": "camera",
       "slug": "office-camera-67",
       "title": "Vintage Film Camera Shutter 67",
@@ -7443,7 +7369,7 @@
       "requires_login": false
     },
     {
-      "id": 109,
+      "id": 108,
       "category": "digital_glitch",
       "slug": "transition-glitch-08",
       "title": "Soft Digital Glitch Stutter 08 (No Reverb)",
@@ -7511,7 +7437,7 @@
       "requires_login": false
     },
     {
-      "id": 110,
+      "id": 109,
       "category": "bg_room_tone",
       "slug": "ambience-room-tone-01",
       "title": "Basement Low Room Tone 01",
@@ -7582,7 +7508,7 @@
       "requires_login": false
     },
     {
-      "id": 111,
+      "id": 110,
       "category": "bg_room_tone",
       "slug": "ambience-room-tone-20",
       "title": "Quiet Interior Room Tone 20",
@@ -7653,7 +7579,7 @@
       "requires_login": false
     },
     {
-      "id": 112,
+      "id": 111,
       "category": "bg_room_tone",
       "slug": "airport-terminal-crowd-ambience-01",
       "title": "Airport Terminal Crowd Ambience 01",
@@ -7719,7 +7645,7 @@
       "requires_login": false
     },
     {
-      "id": 113,
+      "id": 112,
       "category": "bg_room_tone",
       "slug": "factory-machinery-ambience-01",
       "title": "Factory Machinery Ambience 01",
@@ -7784,7 +7710,7 @@
       "requires_login": false
     },
     {
-      "id": 114,
+      "id": 113,
       "category": "bg_room_tone",
       "slug": "door-open-01",
       "title": "Light Interior Door Opening 01",
@@ -7856,7 +7782,7 @@
       "requires_login": false
     },
     {
-      "id": 115,
+      "id": 114,
       "category": "bg_office",
       "slug": "ambience-room-tone-17",
       "title": "Office Hum Room Tone 17",
@@ -7928,7 +7854,7 @@
       "requires_login": false
     },
     {
-      "id": 116,
+      "id": 115,
       "category": "bg_office",
       "slug": "ambience-room-tone-44",
       "title": "Office Hum Room Tone 44",
@@ -7996,7 +7922,7 @@
       "requires_login": false
     },
     {
-      "id": 117,
+      "id": 116,
       "category": "bg_city",
       "slug": "city-sidewalk-traffic-01",
       "title": "City Sidewalk Traffic 01",
@@ -8061,7 +7987,7 @@
       "requires_login": false
     },
     {
-      "id": 118,
+      "id": 117,
       "category": "bg_city",
       "slug": "growth-097834af2f9f37e83953d235-part-1-v1",
       "title": "Urban Traffic Bed",
@@ -8126,7 +8052,7 @@
       "requires_login": false
     },
     {
-      "id": 119,
+      "id": 118,
       "category": "bg_city",
       "slug": "growth-0bc0869e5f889397ae38ff63-part-1-v1",
       "title": "Highway Traffic Bed",
@@ -8191,7 +8117,7 @@
       "requires_login": false
     },
     {
-      "id": 120,
+      "id": 119,
       "category": "bg_nature",
       "slug": "ambience-wind-31",
       "title": "Looping Gusty Wind Ambience 31",
@@ -8264,7 +8190,7 @@
       "requires_login": false
     },
     {
-      "id": 121,
+      "id": 120,
       "category": "bg_nature",
       "slug": "ambience-rain-32",
       "title": "Looping Leafy Forest Rain 32",
@@ -8337,7 +8263,7 @@
       "requires_login": false
     },
     {
-      "id": 122,
+      "id": 121,
       "category": "bg_nature",
       "slug": "ambience-rain-05",
       "title": "Heavy Pouring Rain 05",
@@ -8409,77 +8335,7 @@
       "requires_login": false
     },
     {
-      "id": 123,
-      "category": "bg_nature",
-      "slug": "ambience-ocean-01",
-      "title": "Rolling Surf Ocean Waves 01",
-      "description": "Ocean waves, about 12 seconds long. Use it for beach backgrounds and relaxing scenes in videos, games and apps.",
-      "semantic_use": [
-        "bg_nature"
-      ],
-      "matched_query": "ocean ambience",
-      "tags": [
-        "ambience",
-        "distant",
-        "ocean",
-        "rolling"
-      ],
-      "source": "SFXMint",
-      "source_page": "https://sfxmint.com/sounds/ambience-ocean-01",
-      "license": "CC0-1.0",
-      "original_file": {
-        "url": "https://sfxmint.com/dl/ambience-ocean-01.wav",
-        "format": "WAV",
-        "format_name": "wav",
-        "codec": "pcm_s16le",
-        "sample_rate_hz": 44100,
-        "channels": 2,
-        "bits_per_sample": 16,
-        "sample_fmt": "s16",
-        "bit_rate_bps": 1411200,
-        "size_bytes": 2116878,
-        "duration_sec": 12.0
-      },
-      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-ocean-01.mp3",
-      "duration_ms": 12000,
-      "loopable": false,
-      "loop_status": "not_requested",
-      "acoustics": {
-        "attack_ms": 4550,
-        "tail_ms": 6570,
-        "centroid_hz": 1853,
-        "character": [
-          "balanced",
-          "gradual",
-          "sustained"
-        ]
-      },
-      "peaks_url": "https://sfxmint.com/peaks/ambience-ocean-01.json",
-      "family": null,
-      "family_url": null,
-      "checks": [
-        {
-          "requirement": "recommendation eligibility",
-          "state": "satisfied"
-        },
-        {
-          "requirement": "delivered wav duration <= 30000ms",
-          "state": "satisfied",
-          "hard": true,
-          "evidence": "12000ms"
-        },
-        {
-          "requirement": "WAV available and decodable",
-          "state": "satisfied"
-        }
-      ],
-      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
-      "is_original_master": true,
-      "requires_api_key": false,
-      "requires_login": false
-    },
-    {
-      "id": 124,
+      "id": 122,
       "category": "bg_nature",
       "slug": "ambience-forest-10",
       "title": "Misty Calm Forest Ambience 10",
@@ -8551,7 +8407,7 @@
       "requires_login": false
     },
     {
-      "id": 125,
+      "id": 123,
       "category": "bg_nature",
       "slug": "horror-ambience-dark-70",
       "title": "Night Forest Unease Haunted Ambience 70",
@@ -8620,7 +8476,77 @@
       "requires_login": false
     },
     {
-      "id": 126,
+      "id": 124,
+      "category": "bg_nature",
+      "slug": "ambience-ocean-01",
+      "title": "Rolling Surf Ocean Waves 01",
+      "description": "Ocean waves, about 12 seconds long. Use it for beach backgrounds and relaxing scenes in videos, games and apps.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "ocean ambience",
+      "tags": [
+        "ambience",
+        "distant",
+        "ocean",
+        "rolling"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-ocean-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-ocean-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12.0
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-ocean-01.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 4550,
+        "tail_ms": 6570,
+        "centroid_hz": 1853,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-ocean-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 125,
       "category": "bg_nature",
       "slug": "wind-chimes-settle-01",
       "title": "Wind Chimes Settle 01",
@@ -8685,7 +8611,7 @@
       "requires_login": false
     },
     {
-      "id": 127,
+      "id": 126,
       "category": "bg_nature",
       "slug": "horror-wind-whisper-04",
       "title": "Cold Drafty Whisper-Like Wind 04",
@@ -8756,7 +8682,7 @@
       "requires_login": false
     },
     {
-      "id": 128,
+      "id": 127,
       "category": "bg_nature",
       "slug": "owner-continuous-20260922-ocean-arriving-ships-composite",
       "title": "Ocean Surf with Arriving Ship Horn",
@@ -8824,7 +8750,7 @@
       "requires_login": false
     },
     {
-      "id": 129,
+      "id": 128,
       "category": "bg_nature",
       "slug": "growth-4ebbb97508bd361b56bfce7d-part-1-v2",
       "title": "Wind through Grass",
@@ -8889,7 +8815,7 @@
       "requires_login": false
     },
     {
-      "id": 130,
+      "id": 129,
       "category": "bg_nature",
       "slug": "growth-02d1b3c44f5da8ac835d6bca-part-1-v1",
       "title": "Sci-Fi Martian Wind",
@@ -8955,7 +8881,7 @@
       "requires_login": false
     },
     {
-      "id": 131,
+      "id": 130,
       "category": "bg_nature",
       "slug": "growth-73dd62916437eacebc62ddc6-retry",
       "title": "Wind Through a Window",
@@ -9021,7 +8947,7 @@
       "requires_login": false
     },
     {
-      "id": 132,
+      "id": 131,
       "category": "bg_technology",
       "slug": "fire-electric-hum-40",
       "title": "Deep Machine Electric Hum 40",
@@ -9088,7 +9014,7 @@
       "requires_login": false
     },
     {
-      "id": 133,
+      "id": 132,
       "category": "bg_technology",
       "slug": "owner-backlog-20260922-scifi-hum-loop",
       "title": "Synthetic Computer Console Hum Loop",
@@ -9155,7 +9081,7 @@
       "requires_login": false
     },
     {
-      "id": 134,
+      "id": 133,
       "category": "bg_technology",
       "slug": "owner-continuous-20260922-electronic-door-lock",
       "title": "Electronic Door Lock Confirmation and Latch",
@@ -9223,7 +9149,7 @@
       "requires_login": false
     },
     {
-      "id": 135,
+      "id": 134,
       "category": "bg_technology",
       "slug": "electronic-hum-01",
       "title": "Electronic Hum 01",
@@ -9231,7 +9157,7 @@
       "semantic_use": [
         "bg_technology"
       ],
-      "matched_query": "computer hum",
+      "matched_query": "electronic ambience",
       "tags": [
         "electronic",
         "hum"
@@ -9287,7 +9213,7 @@
       "requires_login": false
     },
     {
-      "id": 136,
+      "id": 135,
       "category": "bg_technology",
       "slug": "owner-continuous-20260922-energy-pulse",
       "title": "Compact Electronic Energy Pulse",
@@ -9353,7 +9279,7 @@
       "requires_login": false
     },
     {
-      "id": 137,
+      "id": 136,
       "category": "bg_technology",
       "slug": "ui-beep-50",
       "title": "Short Electronic Beep 50",
@@ -9419,7 +9345,7 @@
       "requires_login": false
     },
     {
-      "id": 138,
+      "id": 137,
       "category": "bg_technology",
       "slug": "office-cash-register-09",
       "title": "Electronic Cash Register Ka-Ching 09",
@@ -9488,7 +9414,7 @@
       "requires_login": false
     },
     {
-      "id": 139,
+      "id": 138,
       "category": "bg_technology",
       "slug": "owner-continuous-20260922-drum-loop-v2",
       "title": "Dry Electronic Drum Loop at 120 BPM",
@@ -9556,7 +9482,7 @@
       "requires_login": false
     },
     {
-      "id": 140,
+      "id": 139,
       "category": "bg_technology",
       "slug": "owner-continuous-20260922-charge-source-unspecified",
       "title": "Rising Electronic Energy Charge",
@@ -9622,7 +9548,7 @@
       "requires_login": false
     },
     {
-      "id": 141,
+      "id": 140,
       "category": "bg_technology",
       "slug": "door-doorbell-03",
       "title": "Electronic Doorbell Ring 03",
@@ -9694,7 +9620,7 @@
       "requires_login": false
     },
     {
-      "id": 142,
+      "id": 141,
       "category": "bg_cinematic_drone",
       "slug": "low-ominous-dark-horror-drone-01",
       "title": "Low Ominous Dark Horror Drone 01",
@@ -9761,7 +9687,7 @@
       "requires_login": false
     },
     {
-      "id": 143,
+      "id": 142,
       "category": "bg_cinematic_drone",
       "slug": "magic-scifi-alien-36",
       "title": "Swirling Atmospheric Alien Ambience Drone 36",
@@ -9829,7 +9755,7 @@
       "requires_login": false
     },
     {
-      "id": 144,
+      "id": 143,
       "category": "bg_cinematic_drone",
       "slug": "hollow-metallic-dark-horror-drone-01",
       "title": "Hollow Metallic Dark Horror Drone 01",
@@ -9896,7 +9822,7 @@
       "requires_login": false
     },
     {
-      "id": 145,
+      "id": 144,
       "category": "bg_cinematic_drone",
       "slug": "horror-drone-25",
       "title": "Pulsing Dread Dark Horror Drone 25",
@@ -9968,7 +9894,7 @@
       "requires_login": false
     },
     {
-      "id": 146,
+      "id": 145,
       "category": "bg_cinematic_drone",
       "slug": "animal-insect-38",
       "title": "Cicada Drone Insect Buzzing 38",
@@ -10036,7 +9962,7 @@
       "requires_login": false
     },
     {
-      "id": 147,
+      "id": 146,
       "category": "bg_crowd_public",
       "slug": "crowd-groan-01",
       "title": "Crowd Groan 01",
@@ -10100,7 +10026,7 @@
       "requires_login": false
     },
     {
-      "id": 148,
+      "id": 147,
       "category": "bg_crowd_public",
       "slug": "crowd-gasp-43",
       "title": "Sudden Collective Crowd Gasp Reaction 43",
@@ -10168,7 +10094,7 @@
       "requires_login": false
     },
     {
-      "id": 149,
+      "id": 148,
       "category": "bg_crowd_public",
       "slug": "crowd-cheer-43",
       "title": "Kids Playground-Style Crowd Cheering 43",
@@ -10235,7 +10161,7 @@
       "requires_login": false
     },
     {
-      "id": 150,
+      "id": 149,
       "category": "bg_crowd_public",
       "slug": "daily-20260923-hushed-crowd-walla-short",
       "title": "Hushed Crowd Walla Short",
@@ -10301,7 +10227,7 @@
       "requires_login": false
     },
     {
-      "id": 151,
+      "id": 150,
       "category": "bg_crowd_public",
       "slug": "crowd-applause-01",
       "title": "Enthusiastic Crowd Applause 01",
@@ -10373,7 +10299,7 @@
       "requires_login": false
     },
     {
-      "id": 152,
+      "id": 151,
       "category": "bg_crowd_public",
       "slug": "hushed-crowd-murmur-walla-01",
       "title": "Hushed Crowd Murmur Walla 01",
@@ -10439,7 +10365,7 @@
       "requires_login": false
     },
     {
-      "id": 153,
+      "id": 152,
       "category": "bg_crowd_public",
       "slug": "crowd-laughter-22",
       "title": "Big Burst Crowd Laughter 22",
@@ -10510,7 +10436,7 @@
       "requires_login": false
     },
     {
-      "id": 154,
+      "id": 153,
       "category": "bg_crowd_public",
       "slug": "crowd-murmur-02",
       "title": "Restaurant Background Crowd Murmur Walla 02",
