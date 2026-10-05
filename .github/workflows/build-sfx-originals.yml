@@ -1,0 +1,33 @@
+name: Build Original SFX Catalog
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build-sfx-originals-catalog.py"
+      - "originals-trigger.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Build original-master catalog
+        run: python scripts/build-sfx-originals-catalog.py
+      - name: Commit catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/sfx-catalog-originals-250.json
+          git commit -m "Build original-master SFX and background catalog" || exit 0
+          git push
