@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.parse, urllib.request
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 OUT = Path("catalog/sfx-catalog-200.json")
 BASE = "https://sfxmint.com/api/v1/search"
@@ -25,124 +26,91 @@ CATEGORIES = [
     {"id":"logo_stinger","count":10,"max_ms":5500,"queries":["logo stinger","logo reveal","sonic logo","short intro sting","brand reveal"]},
 ]
 
-def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent":"MotionsSong-SFX-Catalog/1.0"})
-    with urllib.request.urlopen(req, timeout=45) as r:
-        return json.load(r)
-
-def search(q, max_ms):
+def fetch_search(cat_id, q, max_ms):
     params = {
-        "q": q,
-        "limit": 20,
-        "format": "wav",
-        "max_duration_ms": max_ms,
-        "response": "structured",
-        "via": "skill",
+        "q": q, "limit": 20, "format": "wav",
+        "max_duration_ms": max_ms, "response": "structured", "via": "skill"
     }
-    data = get(BASE + "?" + urllib.parse.urlencode(params))
-    if isinstance(data, list):
-        return data
-    return data.get("candidates") or data.get("results") or []
+    url = BASE + "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent":"MotionsSong-SFX-Catalog/2.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data = json.load(r)
+        rows = data if isinstance(data, list) else (data.get("candidates") or data.get("results") or [])
+        return cat_id, q, rows
+    except Exception as e:
+        return cat_id, q, []
 
-def quality_hint(row):
-    a = row.get("acoustics") or {}
-    tail = a.get("tail_ms")
-    centroid = a.get("centroid_hz")
-    attack = a.get("attack_ms")
+def qhint(row):
+    a=row.get("acoustics") or {}
+    attack=a.get("attack_ms"); tail=a.get("tail_ms")
     return {
-        "attack_ms": attack,
-        "tail_ms": tail,
-        "centroid_hz": centroid,
-        "character": a.get("character") or [],
-        "short_transient": bool(attack is not None and tail is not None and attack <= 120 and tail <= 1200),
+        "attack_ms":attack, "tail_ms":tail, "centroid_hz":a.get("centroid_hz"),
+        "character":a.get("character") or [],
+        "short_transient": bool(attack is not None and tail is not None and attack<=120 and tail<=1200)
     }
 
-used = set()
-items = []
-for cat in CATEGORIES:
-    pool = []
-    seen_local = set()
-    for q in cat["queries"]:
-        try:
-            rows = search(q, cat["max_ms"])
-        except Exception:
-            rows = []
-        for row in rows:
-            slug = row.get("slug")
-            wav = row.get("wav_url")
-            mp3 = row.get("mp3_url")
-            if not slug or not wav or slug in used or slug in seen_local:
-                continue
-            if (row.get("license") or "").upper() not in ("CC0","CC0-1.0","CC0 1.0"):
-                continue
-            seen_local.add(slug)
-            row["_matched_query"] = q
-            pool.append(row)
-    pool.sort(key=lambda x: (float(x.get("score") or 0), -(int(x.get("duration_ms") or 999999))), reverse=True)
-    picked = pool[:cat["count"]]
-    for row in picked:
+jobs=[]
+cat_by_id={c["id"]:c for c in CATEGORIES}
+with ThreadPoolExecutor(max_workers=16) as ex:
+    futures=[]
+    for c in CATEGORIES:
+        for q in c["queries"]:
+            futures.append(ex.submit(fetch_search,c["id"],q,c["max_ms"]))
+    for fut in as_completed(futures):
+        jobs.append(fut.result())
+
+rows_by_cat={c["id"]:[] for c in CATEGORIES}
+seen_by_cat={c["id"]:set() for c in CATEGORIES}
+for cat_id,q,rows in jobs:
+    for row in rows:
+        slug=row.get("slug")
+        if not slug or not row.get("wav_url") or slug in seen_by_cat[cat_id]:
+            continue
+        if (row.get("license") or "").upper() not in ("CC0","CC0-1.0","CC0 1.0"):
+            continue
+        seen_by_cat[cat_id].add(slug)
+        row["_matched_query"]=q
+        rows_by_cat[cat_id].append(row)
+
+used=set()
+items=[]
+for c in CATEGORIES:
+    pool=rows_by_cat[c["id"]]
+    pool.sort(key=lambda x:(float(x.get("score") or 0), -(int(x.get("duration_ms") or 999999))), reverse=True)
+    picked=[]
+    for row in pool:
+        if row["slug"] in used:
+            continue
+        picked.append(row)
         used.add(row["slug"])
+        if len(picked)>=c["count"]:
+            break
+    for row in picked:
         items.append({
-            "id": len(items)+1,
-            "category": cat["id"],
-            "slug": row["slug"],
-            "title": row.get("title"),
-            "matched_query": row.get("_matched_query"),
-            "tags": row.get("tags") or [],
-            "duration_ms": row.get("duration_ms"),
-            "loopable": row.get("loopable"),
-            "license": "CC0-1.0",
-            "wav_url": row.get("wav_url"),
-            "mp3_url": row.get("mp3_url"),
-            "page_url": row.get("page_url"),
-            "source": "SFXMint",
-            "quality_hint": quality_hint(row),
+            "id":len(items)+1, "category":c["id"], "slug":row["slug"],
+            "title":row.get("title"), "matched_query":row.get("_matched_query"),
+            "tags":row.get("tags") or [], "duration_ms":row.get("duration_ms"),
+            "loopable":row.get("loopable"), "license":"CC0-1.0",
+            "wav_url":row.get("wav_url"), "mp3_url":row.get("mp3_url"),
+            "page_url":row.get("page_url"), "source":"SFXMint",
+            "quality_hint":qhint(row)
         })
 
-if len(items) < 200:
-    fallback_queries = ["transition","ui","notification","whoosh","click","impact","typing","drawing","camera","glitch","stinger","scratch"]
-    for q in fallback_queries:
-        if len(items) >= 200:
-            break
-        try:
-            rows = search(q, 7000)
-        except Exception:
-            continue
-        for row in rows:
-            if len(items) >= 200:
-                break
-            slug=row.get("slug")
-            if not slug or slug in used or not row.get("wav_url"):
-                continue
-            if (row.get("license") or "").upper() not in ("CC0","CC0-1.0","CC0 1.0"):
-                continue
-            used.add(slug)
-            items.append({
-                "id": len(items)+1,
-                "category": "fallback_motion",
-                "slug": slug,
-                "title": row.get("title"),
-                "matched_query": q,
-                "tags": row.get("tags") or [],
-                "duration_ms": row.get("duration_ms"),
-                "loopable": row.get("loopable"),
-                "license": "CC0-1.0",
-                "wav_url": row.get("wav_url"),
-                "mp3_url": row.get("mp3_url"),
-                "page_url": row.get("page_url"),
-                "source": "SFXMint",
-                "quality_hint": quality_hint(row),
-            })
-
-doc = {
-    "name": "MotionsSong 200 Essential Motion SFX",
-    "generated_from": "SFXMint public CC0 API",
-    "license_policy": "CC0-1.0 only",
-    "download_priority": "wav_url",
-    "count": len(items),
-    "categories": {c["id"]: c["count"] for c in CATEGORIES},
-    "items": items[:200],
+doc={
+    "name":"MotionsSong 200 Essential Motion SFX",
+    "generated_from":"SFXMint public CC0 API",
+    "license_policy":"CC0-1.0 only",
+    "download_priority":"wav_url",
+    "requested_count":200,
+    "count":len(items),
+    "category_targets":{c["id"]:c["count"] for c in CATEGORIES},
+    "category_actual":{},
+    "items":items[:200],
 }
-OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"wrote {min(len(items),200)} items to {OUT}")
+for x in doc["items"]:
+    doc["category_actual"][x["category"]]=doc["category_actual"].get(x["category"],0)+1
+OUT.parent.mkdir(parents=True,exist_ok=True)
+OUT.write_text(json.dumps(doc,ensure_ascii=False,indent=2),encoding="utf-8")
+print("catalog items:",len(doc["items"]))
+print(json.dumps(doc["category_actual"],indent=2))
