@@ -14,9 +14,11 @@ function safe(s) {
 }
 
 async function downloadOne(item) {
-  const url = item.wav_url || item.mp3_url;
+  const url = item.wav_url || item.mp3_url || item.direct_url || item.preview_ogg_url || item.preview_mp3_url;
   if (!url) return {id:item.id, ok:false, error:"no_url"};
-  const ext = item.wav_url ? ".wav" : ".mp3";
+  const cleanUrl = url.split("?")[0];
+  const m = cleanUrl.match(/\.(wav|mp3|ogg|aif|aiff|m4a)$/i);
+  const ext = m ? "." + m[1].toLowerCase() : ".bin";
   const dir = path.join(outDir, safe(item.category));
   await fs.mkdir(dir, {recursive:true});
   const file = path.join(dir, String(item.id).padStart(3,"0") + "_" + safe(item.slug) + ext);
