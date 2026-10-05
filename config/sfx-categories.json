@@ -1,0 +1,12 @@
+{
+  "whoosh": {"queries":["whoosh","swoosh","swish transition"],"count":14,"max_duration":2.5},
+  "ui": {"queries":["ui click","button click","interface pop","notification"],"count":12,"max_duration":1.5},
+  "impact": {"queries":["impact hit","cinematic hit","thump"],"count":10,"max_duration":3.0},
+  "boom": {"queries":["boom","cinematic boom","sub hit"],"count":8,"max_duration":4.0},
+  "riser": {"queries":["riser","uplifter","reverse swell"],"count":8,"max_duration":6.0},
+  "typing": {"queries":["typing keyboard","soft keyboard","computer typing"],"count":8,"max_duration":8.0},
+  "drawing": {"queries":["pencil writing","pencil drawing","pen writing","scribble"],"count":10,"max_duration":8.0},
+  "camera": {"queries":["camera shutter","camera click","camera focus"],"count":6,"max_duration":3.0},
+  "logo": {"queries":["logo reveal","logo intro","stinger","sonic logo"],"count":8,"max_duration":5.0},
+  "digital": {"queries":["digital glitch","digital transition","technology beep"],"count":8,"max_duration":3.0}
+}
