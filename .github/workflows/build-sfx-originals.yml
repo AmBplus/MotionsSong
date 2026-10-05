@@ -24,10 +24,12 @@ jobs:
           sudo apt-get install -y ffmpeg
       - name: Build original-master catalog
         run: python scripts/build-sfx-originals-catalog.py
+      - name: Build final 200-item original-master catalog
+        run: python scripts/augment-originals-catalog.py
       - name: Commit catalog
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog/sfx-catalog-originals-250.json
+          git add catalog/sfx-catalog-originals-250.json catalog/sfx-catalog-originals-200.json
           git commit -m "Build original-master SFX and background catalog" || exit 0
           git push
