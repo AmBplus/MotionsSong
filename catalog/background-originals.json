@@ -1,0 +1,3093 @@
+{
+  "name": "MotionsSong Professional Background Originals",
+  "version": "2026-10-05-original-masters-v2",
+  "count": 45,
+  "policy": {
+    "original_files_only": true,
+    "previews_included": false,
+    "metadata_complete": true,
+    "public_direct_downloads_for_sfxmint_kenney": true,
+    "freesound_originals_require_oauth": true
+  },
+  "category_actual": {
+    "bg_room_tone": 5,
+    "bg_office": 2,
+    "bg_city": 3,
+    "bg_nature": 12,
+    "bg_technology": 10,
+    "bg_cinematic_drone": 5,
+    "bg_crowd_public": 8
+  },
+  "items": [
+    {
+      "id": 1,
+      "category": "bg_room_tone",
+      "slug": "ambience-room-tone-01",
+      "title": "Basement Low Room Tone 01",
+      "description": "A room tone sound, about 11 seconds long. Use it for gaps between dialogue and quiet indoor scenes in videos.",
+      "semantic_use": [
+        "bg_room_tone"
+      ],
+      "matched_query": "room tone",
+      "tags": [
+        "ambience",
+        "basement",
+        "bright",
+        "outdoor",
+        "room-tone"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-room-tone-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-room-tone-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1940478,
+        "duration_sec": 11
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-room-tone-01.mp3",
+      "duration_ms": 11000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 6890,
+        "tail_ms": 4000,
+        "centroid_hz": 1522,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-room-tone-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "11000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 2,
+      "category": "bg_room_tone",
+      "slug": "ambience-room-tone-20",
+      "title": "Quiet Interior Room Tone 20",
+      "description": "A deep room tone sound, about 12 seconds long. Use it for gaps between dialogue and quiet indoor scenes in videos.",
+      "semantic_use": [
+        "bg_room_tone"
+      ],
+      "matched_query": "interior ambience",
+      "tags": [
+        "ambience",
+        "outdoor",
+        "quiet",
+        "rich",
+        "room-tone"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-room-tone-20",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-room-tone-20.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-room-tone-20.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 9080,
+        "tail_ms": 2200,
+        "centroid_hz": 1005,
+        "character": [
+          "dark",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-room-tone-20.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 3,
+      "category": "bg_room_tone",
+      "slug": "airport-terminal-crowd-ambience-01",
+      "title": "Airport Terminal Crowd Ambience 01",
+      "description": "A short indoor airport terminal crowd ambience passage.",
+      "semantic_use": [
+        "bg_room_tone"
+      ],
+      "matched_query": "indoor ambience",
+      "tags": [
+        "airport",
+        "terminal",
+        "crowd",
+        "ambience"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/airport-terminal-crowd-ambience-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/airport-terminal-crowd-ambience-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 954714,
+        "duration_sec": 5.412
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/airport-terminal-crowd-ambience-01.mp3",
+      "duration_ms": 5412,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/airport-terminal-crowd-ambience-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "5412ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 4,
+      "category": "bg_room_tone",
+      "slug": "factory-machinery-ambience-01",
+      "title": "Factory Machinery Ambience 01",
+      "description": "A short factory interior machinery ambience passage.",
+      "semantic_use": [
+        "bg_room_tone"
+      ],
+      "matched_query": "interior ambience",
+      "tags": [
+        "factory",
+        "machinery",
+        "ambience"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/factory-machinery-ambience-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/factory-machinery-ambience-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1041658,
+        "duration_sec": 5.905
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/factory-machinery-ambience-01.mp3",
+      "duration_ms": 5905,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/factory-machinery-ambience-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "5905ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 5,
+      "category": "bg_room_tone",
+      "slug": "door-open-01",
+      "title": "Light Interior Door Opening 01",
+      "description": "A door opening sound. Use it for entering rooms and scene transitions in games and videos.",
+      "semantic_use": [
+        "bg_room_tone"
+      ],
+      "matched_query": "interior ambience",
+      "tags": [
+        "door",
+        "light",
+        "open",
+        "reverb",
+        "rich",
+        "spacious"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/door-open-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/door-open-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 176478,
+        "duration_sec": 1
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/door-open-01.mp3",
+      "duration_ms": 1000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 130,
+        "tail_ms": 510,
+        "centroid_hz": 2642,
+        "character": [
+          "balanced",
+          "gradual",
+          "short decay"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/door-open-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "1000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 6,
+      "category": "bg_office",
+      "slug": "ambience-room-tone-17",
+      "title": "Office Hum Room Tone 17",
+      "description": "A deep room tone sound, about 11 seconds long. Use it for gaps between dialogue and quiet indoor scenes in videos.",
+      "semantic_use": [
+        "bg_office"
+      ],
+      "matched_query": "office ambience",
+      "tags": [
+        "ambience",
+        "office",
+        "reverb",
+        "room",
+        "room-tone",
+        "warm"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-room-tone-17",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-room-tone-17.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1940478,
+        "duration_sec": 11
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-room-tone-17.mp3",
+      "duration_ms": 11000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 8650,
+        "tail_ms": 1410,
+        "centroid_hz": 953,
+        "character": [
+          "dark",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-room-tone-17.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "11000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 7,
+      "category": "bg_office",
+      "slug": "ambience-room-tone-44",
+      "title": "Office Hum Room Tone 44",
+      "description": "A room tone sound, about 11 seconds long. Use it for gaps between dialogue and quiet indoor scenes in videos.",
+      "semantic_use": [
+        "bg_office"
+      ],
+      "matched_query": "office room",
+      "tags": [
+        "office",
+        "hum",
+        "room",
+        "tone",
+        "ambience",
+        "room-tone"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-room-tone-44",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-room-tone-44.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1940478,
+        "duration_sec": 11
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-room-tone-44.mp3",
+      "duration_ms": 11000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-room-tone-44.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "11000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 8,
+      "category": "bg_city",
+      "slug": "city-sidewalk-traffic-01",
+      "title": "City Sidewalk Traffic 01",
+      "description": "Moderate road traffic heard from a city sidewalk, with rolling tires and distant engines, about 4.5 seconds long. Use it as a street background in videos and games.",
+      "semantic_use": [
+        "bg_city"
+      ],
+      "matched_query": "city ambience",
+      "tags": [
+        "city",
+        "sidewalk",
+        "traffic"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/city-sidewalk-traffic-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/city-sidewalk-traffic-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 793878,
+        "duration_sec": 4.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/city-sidewalk-traffic-01.mp3",
+      "duration_ms": 4500,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/city-sidewalk-traffic-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 9,
+      "category": "bg_city",
+      "slug": "growth-097834af2f9f37e83953d235-part-1-v1",
+      "title": "Urban Traffic Bed",
+      "description": "Steady city traffic heard from the sidewalk, with layered rolling tires and subdued engines, about 4.5 seconds long. Use it as an urban street background.",
+      "semantic_use": [
+        "bg_city"
+      ],
+      "matched_query": "urban ambience",
+      "tags": [
+        "urban",
+        "traffic",
+        "bed"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/urban-traffic-bed",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/growth-097834af2f9f37e83953d235-part-1-v1.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 705600,
+        "size_bytes": 396978,
+        "duration_sec": 4.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/growth-097834af2f9f37e83953d235-part-1-v1.mp3",
+      "duration_ms": 4500,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/growth-097834af2f9f37e83953d235-part-1-v1.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 10,
+      "category": "bg_city",
+      "slug": "growth-0bc0869e5f889397ae38ff63-part-1-v1",
+      "title": "Highway Traffic Bed",
+      "description": "Highway traffic from the roadside, with rolling tire hiss and cars passing into the distant flow, about 8 seconds long. Use it for road and travel scenes.",
+      "semantic_use": [
+        "bg_city"
+      ],
+      "matched_query": "traffic ambience",
+      "tags": [
+        "highway",
+        "traffic",
+        "bed"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/highway-traffic-bed",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/growth-0bc0869e5f889397ae38ff63-part-1-v1.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1411278,
+        "duration_sec": 8
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/growth-0bc0869e5f889397ae38ff63-part-1-v1.mp3",
+      "duration_ms": 8000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/growth-0bc0869e5f889397ae38ff63-part-1-v1.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "8000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 11,
+      "category": "bg_nature",
+      "slug": "ambience-wind-31",
+      "title": "Looping Gusty Wind Ambience 31",
+      "description": "A deep wind sound, about 8.9 seconds long. Use it for outdoor backgrounds and stormy or lonely scenes in videos and games.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "ambience",
+        "bright",
+        "gusty",
+        "loop",
+        "outdoor",
+        "seamless",
+        "wind"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-wind-31",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-wind-31.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1571802,
+        "duration_sec": 8.91
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-wind-31.mp3",
+      "duration_ms": 8910,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": 2990,
+        "tail_ms": 5950,
+        "centroid_hz": 1042,
+        "character": [
+          "dark",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-wind-31.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "8910ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 12,
+      "category": "bg_nature",
+      "slug": "ambience-rain-32",
+      "title": "Looping Leafy Forest Rain 32",
+      "description": "An airy rain sound, about 11 seconds long. Use it for calm night backgrounds and rainy weather in videos and games.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "forest ambience",
+      "tags": [
+        "ambience",
+        "bright",
+        "distant",
+        "leafy",
+        "loop",
+        "rain",
+        "seamless"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-rain-32",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-rain-32.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1854042,
+        "duration_sec": 10.51
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-rain-32.mp3",
+      "duration_ms": 10510,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": 180,
+        "tail_ms": 10360,
+        "centroid_hz": 5211,
+        "character": [
+          "bright",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-rain-32.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "10510ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 13,
+      "category": "bg_nature",
+      "slug": "ambience-rain-05",
+      "title": "Heavy Pouring Rain 05",
+      "description": "An airy rain sound, about 11 seconds long. Use it for calm night backgrounds and rainy weather in videos and games.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "rain ambience",
+      "tags": [
+        "ambience",
+        "heavy",
+        "rain",
+        "reverb",
+        "rich",
+        "room"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-rain-05",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-rain-05.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1940478,
+        "duration_sec": 11
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-rain-05.mp3",
+      "duration_ms": 11000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 5570,
+        "tail_ms": 5420,
+        "centroid_hz": 4636,
+        "character": [
+          "bright",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-rain-05.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "11000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 14,
+      "category": "bg_nature",
+      "slug": "ambience-ocean-01",
+      "title": "Rolling Surf Ocean Waves 01",
+      "description": "Ocean waves, about 12 seconds long. Use it for beach backgrounds and relaxing scenes in videos, games and apps.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "ocean ambience",
+      "tags": [
+        "ambience",
+        "distant",
+        "ocean",
+        "rolling"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-ocean-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-ocean-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-ocean-01.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 4550,
+        "tail_ms": 6570,
+        "centroid_hz": 1853,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-ocean-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 15,
+      "category": "bg_nature",
+      "slug": "ambience-forest-10",
+      "title": "Misty Calm Forest Ambience 10",
+      "description": "A forest ambience sound, about 12 seconds long. Use it for nature backgrounds and calm game levels in videos, games and apps.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "forest ambience",
+      "tags": [
+        "ambience",
+        "forest",
+        "misty",
+        "reverb",
+        "room",
+        "warm"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ambience-forest-10",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ambience-forest-10.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ambience-forest-10.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 4870,
+        "tail_ms": 1610,
+        "centroid_hz": 1243,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ambience-forest-10.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 16,
+      "category": "bg_nature",
+      "slug": "horror-ambience-dark-70",
+      "title": "Night Forest Unease Haunted Ambience 70",
+      "description": "A haunted ambience sound, about 12 seconds long. Use it for horror backgrounds and haunted levels in games and videos.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "forest ambience",
+      "tags": [
+        "night",
+        "forest",
+        "unease",
+        "haunted",
+        "ambience",
+        "ambience-dark",
+        "horror"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/horror-ambience-dark-70",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/horror-ambience-dark-70.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/horror-ambience-dark-70.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/horror-ambience-dark-70.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 17,
+      "category": "bg_nature",
+      "slug": "wind-chimes-settle-01",
+      "title": "Wind Chimes Settle 01",
+      "description": "A wind chimes sound. Use it for garden scenes and calm transitions in videos, games and apps.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "wind",
+        "chimes",
+        "settle"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/wind-chimes-settle-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/wind-chimes-settle-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 441078,
+        "duration_sec": 2.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/wind-chimes-settle-01.mp3",
+      "duration_ms": 2500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/wind-chimes-settle-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 18,
+      "category": "bg_nature",
+      "slug": "horror-wind-whisper-04",
+      "title": "Cold Drafty Whisper-Like Wind 04",
+      "description": "A deep eerie wind whisper sound, about 6 seconds long. Use it for haunted scenes and ghost moments in games and videos.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "cold",
+        "distant",
+        "horror",
+        "warm",
+        "wind-whisper"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/horror-wind-whisper-04",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/horror-wind-whisper-04.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1058478,
+        "duration_sec": 6
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/horror-wind-whisper-04.mp3",
+      "duration_ms": 6000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 1000,
+        "tail_ms": 3520,
+        "centroid_hz": 637,
+        "character": [
+          "dark",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/horror-wind-whisper-04.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "6000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 19,
+      "category": "bg_nature",
+      "slug": "owner-continuous-20260922-ocean-arriving-ships-composite",
+      "title": "Ocean Surf with Arriving Ship Horn",
+      "description": "Accepted rolling surf with one accepted large ship horn at5s, soft gain rise on horn; a designed arrival cue, not port field recording",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "ocean ambience",
+      "tags": [
+        "ocean",
+        "surf",
+        "with",
+        "arriving",
+        "ship",
+        "horn"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ocean-surf-with-arriving-ship-horn",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-continuous-20260922-ocean-arriving-ships-composite.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 2116878,
+        "duration_sec": 12
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-continuous-20260922-ocean-arriving-ships-composite.mp3",
+      "duration_ms": 12000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-continuous-20260922-ocean-arriving-ships-composite.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "12000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 20,
+      "category": "bg_nature",
+      "slug": "growth-4ebbb97508bd361b56bfce7d-part-1-v2",
+      "title": "Wind through Grass",
+      "description": "A light breeze passing through grass with a short, soft rustle. Use it for fields, meadows and outdoor scenes in games and videos.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "wind",
+        "through",
+        "grass"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/wind-through-grass",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/growth-4ebbb97508bd361b56bfce7d-part-1-v2.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 441078,
+        "duration_sec": 2.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/growth-4ebbb97508bd361b56bfce7d-part-1-v2.mp3",
+      "duration_ms": 2500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/growth-4ebbb97508bd361b56bfce7d-part-1-v2.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 21,
+      "category": "bg_nature",
+      "slug": "growth-02d1b3c44f5da8ac835d6bca-part-1-v1",
+      "title": "Sci-Fi Martian Wind",
+      "description": "A thin, airy Martian wind with slowly shifting hollow low tones and a faint sandy hiss, about 6 seconds long. Use it for alien planets and sci-fi landscapes.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "sci",
+        "fi",
+        "martian",
+        "wind"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/sci-fi-martian-wind",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/growth-02d1b3c44f5da8ac835d6bca-part-1-v1.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1058478,
+        "duration_sec": 6
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/growth-02d1b3c44f5da8ac835d6bca-part-1-v1.mp3",
+      "duration_ms": 6000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/growth-02d1b3c44f5da8ac835d6bca-part-1-v1.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "6000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 22,
+      "category": "bg_nature",
+      "slug": "growth-73dd62916437eacebc62ddc6-retry",
+      "title": "Wind Through a Window",
+      "description": "Use this wind through a window for the matching action or scene.",
+      "semantic_use": [
+        "bg_nature"
+      ],
+      "matched_query": "wind ambience",
+      "tags": [
+        "wind",
+        "through",
+        "a",
+        "window"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/wind-through-a-window",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/growth-73dd62916437eacebc62ddc6-retry.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1323078,
+        "duration_sec": 7.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/growth-73dd62916437eacebc62ddc6-retry.mp3",
+      "duration_ms": 7500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/growth-73dd62916437eacebc62ddc6-retry.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "7500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 23,
+      "category": "bg_technology",
+      "slug": "fire-electric-hum-40",
+      "title": "Deep Machine Electric Hum 40",
+      "description": "An electric hum sound, about 6 seconds long. Use it for machines and power rooms, or for sci-fi backgrounds, in games and videos.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "machine hum",
+      "tags": [
+        "deep",
+        "machine",
+        "electric",
+        "hum",
+        "fire-electric"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/fire-electric-hum-40",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/fire-electric-hum-40.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1058478,
+        "duration_sec": 6
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/fire-electric-hum-40.mp3",
+      "duration_ms": 6000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/fire-electric-hum-40.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "6000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 24,
+      "category": "bg_technology",
+      "slug": "owner-backlog-20260922-scifi-hum-loop",
+      "title": "Synthetic Computer Console Hum Loop",
+      "description": "A synthetic computer console hum, about 7.5 seconds long. Use it for control rooms, labs and sci-fi interfaces in games and videos.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "computer hum",
+      "tags": [
+        "synthetic",
+        "computer",
+        "console",
+        "hum",
+        "loop"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/synthetic-computer-console-hum-loop",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-backlog-20260922-scifi-hum-loop.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1323078,
+        "duration_sec": 7.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-backlog-20260922-scifi-hum-loop.mp3",
+      "duration_ms": 7500,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-backlog-20260922-scifi-hum-loop.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "7500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 25,
+      "category": "bg_technology",
+      "slug": "owner-continuous-20260922-electronic-door-lock",
+      "title": "Electronic Door Lock Confirmation and Latch",
+      "description": "Accepted phone unlock double click followed by accepted soft mechanical latch at0.25s; explicit designed electronic door-lock cue, not manufacturer recording",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "electronic",
+        "door",
+        "lock",
+        "confirmation",
+        "and",
+        "latch"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/electronic-door-lock-confirmation-and-latch",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-continuous-20260922-electronic-door-lock.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 264678,
+        "duration_sec": 1.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-continuous-20260922-electronic-door-lock.mp3",
+      "duration_ms": 1500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-continuous-20260922-electronic-door-lock.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "1500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 26,
+      "category": "bg_technology",
+      "slug": "electronic-hum-01",
+      "title": "Electronic Hum 01",
+      "description": "A steady synthesized electronic humming tone, about 4.1 seconds long. Use it for powered devices and science fiction scenes.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "computer hum",
+      "tags": [
+        "electronic",
+        "hum"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/electronic-hum-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/electronic-hum-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 726266,
+        "duration_sec": 4.117
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/electronic-hum-01.mp3",
+      "duration_ms": 4117,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/electronic-hum-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4117ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 27,
+      "category": "bg_technology",
+      "slug": "owner-continuous-20260922-energy-pulse",
+      "title": "Compact Electronic Energy Pulse",
+      "description": "One designed electronic pulse with80-to220Hz pitch rise and decaying harmonic shimmer, no voice or noise bed",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "compact",
+        "electronic",
+        "energy",
+        "pulse"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/compact-electronic-energy-pulse",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-continuous-20260922-energy-pulse.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 141198,
+        "duration_sec": 0.8
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-continuous-20260922-energy-pulse.mp3",
+      "duration_ms": 800,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-continuous-20260922-energy-pulse.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "800ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 28,
+      "category": "bg_technology",
+      "slug": "ui-beep-50",
+      "title": "Short Electronic Beep 50",
+      "description": "An electronic beep sound. Use it for device feedback, or for timers and alerts, in apps and games.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "short",
+        "electronic",
+        "beep",
+        "ui"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/ui-beep-50",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/ui-beep-50.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 176478,
+        "duration_sec": 1
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/ui-beep-50.mp3",
+      "duration_ms": 1000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/ui-beep-50.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "1000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 29,
+      "category": "bg_technology",
+      "slug": "office-cash-register-09",
+      "title": "Electronic Cash Register Ka-Ching 09",
+      "description": "A cash register sound. Use it for purchases, or for sales and rewards, in apps, games and videos.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "electronic",
+        "cash",
+        "register",
+        "ka-ching",
+        "bright",
+        "cash-register",
+        "office"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/office-cash-register-09",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/office-cash-register-09.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/office-cash-register-09.mp3",
+      "duration_ms": 2000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/office-cash-register-09.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 30,
+      "category": "bg_technology",
+      "slug": "owner-continuous-20260922-drum-loop-v2",
+      "title": "Dry Electronic Drum Loop at 120 BPM",
+      "description": "One bar of electronic drums at 120 BPM: kick, snare and closed hi-hats, 2 seconds long. Use it as a simple beat for prototypes, menus and videos.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "dry",
+        "electronic",
+        "drum",
+        "loop",
+        "at",
+        "bpm"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/dry-electronic-drum-loop-at-120-bpm",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-continuous-20260922-drum-loop-v2.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 352878,
+        "duration_sec": 2
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-continuous-20260922-drum-loop-v2.mp3",
+      "duration_ms": 2000,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-continuous-20260922-drum-loop-v2.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 31,
+      "category": "bg_technology",
+      "slug": "owner-continuous-20260922-charge-source-unspecified",
+      "title": "Rising Electronic Energy Charge",
+      "description": "Designed electronic energy charge: smooth pitch rise from90 to300Hz with restrained harmonic glow, swell and clean release. Context spell/electric/energy pulse supports charge-up interpretation; no electrical device recording claim.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "rising",
+        "electronic",
+        "energy",
+        "charge"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/rising-electronic-energy-charge",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/owner-continuous-20260922-charge-source-unspecified.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 441078,
+        "duration_sec": 2.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/owner-continuous-20260922-charge-source-unspecified.mp3",
+      "duration_ms": 2500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/owner-continuous-20260922-charge-source-unspecified.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 32,
+      "category": "bg_technology",
+      "slug": "door-doorbell-03",
+      "title": "Electronic Doorbell Ring 03",
+      "description": "A dark doorbell sound. Use it for visitors arriving and smart home alerts in apps, games and videos.",
+      "semantic_use": [
+        "bg_technology"
+      ],
+      "matched_query": "electronic ambience",
+      "tags": [
+        "deep",
+        "door",
+        "doorbell",
+        "electronic",
+        "reverb",
+        "spacious"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/door-doorbell-03",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/door-doorbell-03.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 529278,
+        "duration_sec": 3
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/door-doorbell-03.mp3",
+      "duration_ms": 3000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 20,
+        "tail_ms": 2040,
+        "centroid_hz": 1012,
+        "character": [
+          "dark",
+          "punchy",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/door-doorbell-03.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "3000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 33,
+      "category": "bg_cinematic_drone",
+      "slug": "low-ominous-dark-horror-drone-01",
+      "title": "Low Ominous Dark Horror Drone 01",
+      "description": "An ominous horror drone sound, about 2.8 seconds long. Use it for horror tension and boss rooms in games, videos and music.",
+      "semantic_use": [
+        "bg_cinematic_drone"
+      ],
+      "matched_query": "dark drone",
+      "tags": [
+        "low",
+        "ominous",
+        "dark",
+        "horror",
+        "drone"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/low-ominous-dark-horror-drone-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/low-ominous-dark-horror-drone-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 493998,
+        "duration_sec": 2.8
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/low-ominous-dark-horror-drone-01.mp3",
+      "duration_ms": 2800,
+      "loopable": true,
+      "loop_status": "unknown",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/low-ominous-dark-horror-drone-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2800ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 34,
+      "category": "bg_cinematic_drone",
+      "slug": "magic-scifi-alien-36",
+      "title": "Swirling Atmospheric Alien Ambience Drone 36",
+      "description": "An alien ambience sound, about 4 seconds long. Use it for alien worlds and sci-fi backgrounds in games and videos.",
+      "semantic_use": [
+        "bg_cinematic_drone"
+      ],
+      "matched_query": "ambient drone",
+      "tags": [
+        "swirling",
+        "atmospheric",
+        "alien",
+        "ambience",
+        "drone",
+        "magic-scifi"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/magic-scifi-alien-36",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/magic-scifi-alien-36.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 705678,
+        "duration_sec": 4
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/magic-scifi-alien-36.mp3",
+      "duration_ms": 4000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/magic-scifi-alien-36.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 35,
+      "category": "bg_cinematic_drone",
+      "slug": "hollow-metallic-dark-horror-drone-01",
+      "title": "Hollow Metallic Dark Horror Drone 01",
+      "description": "A hollow, metallic dark drone, about 6 seconds long. Use it for horror tension, haunted spaces and suspense scenes in games and videos.",
+      "semantic_use": [
+        "bg_cinematic_drone"
+      ],
+      "matched_query": "dark drone",
+      "tags": [
+        "hollow",
+        "metallic",
+        "dark",
+        "horror",
+        "drone"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/hollow-metallic-dark-horror-drone-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/hollow-metallic-dark-horror-drone-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1058478,
+        "duration_sec": 6
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/hollow-metallic-dark-horror-drone-01.mp3",
+      "duration_ms": 6000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/hollow-metallic-dark-horror-drone-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "6000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 36,
+      "category": "bg_cinematic_drone",
+      "slug": "horror-drone-25",
+      "title": "Pulsing Dread Dark Horror Drone 25",
+      "description": "A deep horror drone sound, about 11 seconds long. Use it for tension backgrounds and horror scenes in videos and games.",
+      "semantic_use": [
+        "bg_cinematic_drone"
+      ],
+      "matched_query": "dark drone",
+      "tags": [
+        "deep",
+        "drone",
+        "horror",
+        "pulsing",
+        "reverb",
+        "spacious"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/horror-drone-25",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/horror-drone-25.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1940478,
+        "duration_sec": 11
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/horror-drone-25.mp3",
+      "duration_ms": 11000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 610,
+        "tail_ms": 9980,
+        "centroid_hz": 718,
+        "character": [
+          "dark",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/horror-drone-25.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "11000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 37,
+      "category": "bg_cinematic_drone",
+      "slug": "animal-insect-38",
+      "title": "Cicada Drone Insect Buzzing 38",
+      "description": "An insect buzzing sound. Use it for summer nature scenes and bugs flying by in videos and games.",
+      "semantic_use": [
+        "bg_cinematic_drone"
+      ],
+      "matched_query": "ambient drone",
+      "tags": [
+        "cicada",
+        "drone",
+        "insect",
+        "buzzing",
+        "animal",
+        "deep"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/animal-insect-38",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/animal-insect-38.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 705678,
+        "duration_sec": 4
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/animal-insect-38.mp3",
+      "duration_ms": 4000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/animal-insect-38.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 38,
+      "category": "bg_crowd_public",
+      "slug": "crowd-groan-01",
+      "title": "Crowd Groan 01",
+      "description": "A crowd groan sound. Use it for missed shots and sports fails in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "crowd",
+        "groan"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-groan-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-groan-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 441078,
+        "duration_sec": 2.5
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-groan-01.mp3",
+      "duration_ms": 2500,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-groan-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "2500ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 39,
+      "category": "bg_crowd_public",
+      "slug": "crowd-gasp-43",
+      "title": "Sudden Collective Crowd Gasp Reaction 43",
+      "description": "A crowd gasp sound. Use it for reveals and shocking moments in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "sudden",
+        "collective",
+        "crowd",
+        "gasp",
+        "reaction",
+        "bright"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-gasp-43",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-gasp-43.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 529278,
+        "duration_sec": 3
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-gasp-43.mp3",
+      "duration_ms": 3000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-gasp-43.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "3000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 40,
+      "category": "bg_crowd_public",
+      "slug": "crowd-cheer-43",
+      "title": "Kids Playground-Style Crowd Cheering 43",
+      "description": "A crowd cheer sound. Use it for wins and celebrations, or for sports scenes, in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "kids",
+        "playground-style",
+        "crowd",
+        "cheering",
+        "cheer"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-cheer-43",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-cheer-43.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 705678,
+        "duration_sec": 4
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-cheer-43.mp3",
+      "duration_ms": 4000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-cheer-43.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 41,
+      "category": "bg_crowd_public",
+      "slug": "daily-20260923-hushed-crowd-walla-short",
+      "title": "Hushed Crowd Walla Short",
+      "description": "A hushed crowd murmuring indistinctly in the background, about 4.7 seconds long. Use it for waiting rooms, lobbies and quiet audience scenes.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "hushed",
+        "crowd",
+        "walla",
+        "short"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/hushed-crowd-walla-short",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/daily-20260923-hushed-crowd-walla-short.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 829124,
+        "duration_sec": 4.7
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/daily-20260923-hushed-crowd-walla-short.mp3",
+      "duration_ms": 4700,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/daily-20260923-hushed-crowd-walla-short.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "4700ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 42,
+      "category": "bg_crowd_public",
+      "slug": "crowd-applause-01",
+      "title": "Enthusiastic Crowd Applause 01",
+      "description": "An applause sound. Use it for performances and awards, or for celebrations, in videos, games and apps.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "applause",
+        "crowd",
+        "enthusiastic",
+        "reverb",
+        "rich",
+        "spacious"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-applause-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-applause-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1411278,
+        "duration_sec": 8
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-applause-01.mp3",
+      "duration_ms": 8000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 1990,
+        "tail_ms": 4580,
+        "centroid_hz": 2867,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-applause-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "8000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 43,
+      "category": "bg_crowd_public",
+      "slug": "hushed-crowd-murmur-walla-01",
+      "title": "Hushed Crowd Murmur Walla 01",
+      "description": "A crowd murmur sound, about 8 seconds long. Use it for busy public backgrounds and restaurant scenes in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "hushed",
+        "crowd",
+        "murmur",
+        "walla"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/hushed-crowd-murmur-walla-01",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/hushed-crowd-murmur-walla-01.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1411278,
+        "duration_sec": 8
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/hushed-crowd-murmur-walla-01.mp3",
+      "duration_ms": 8000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": null,
+        "tail_ms": null,
+        "centroid_hz": null,
+        "character": []
+      },
+      "peaks_url": "https://sfxmint.com/peaks/hushed-crowd-murmur-walla-01.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "8000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 44,
+      "category": "bg_crowd_public",
+      "slug": "crowd-laughter-22",
+      "title": "Big Burst Crowd Laughter 22",
+      "description": "A crowd laughter sound. Use it for comedy scenes and funny reactions in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "big",
+        "crowd",
+        "deep",
+        "distant",
+        "laughter"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-laughter-22",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-laughter-22.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1764078,
+        "duration_sec": 10
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-laughter-22.mp3",
+      "duration_ms": 10000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 1900,
+        "tail_ms": 5290,
+        "centroid_hz": 1738,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-laughter-22.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "10000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    },
+    {
+      "id": 45,
+      "category": "bg_crowd_public",
+      "slug": "crowd-murmur-02",
+      "title": "Restaurant Background Crowd Murmur Walla 02",
+      "description": "A crowd murmur sound, about 10 seconds long. Use it for busy public backgrounds and restaurant scenes in videos and games.",
+      "semantic_use": [
+        "bg_crowd_public"
+      ],
+      "matched_query": "crowd ambience",
+      "tags": [
+        "bright",
+        "crowd",
+        "distant",
+        "murmur",
+        "restaurant"
+      ],
+      "source": "SFXMint",
+      "source_page": "https://sfxmint.com/sounds/crowd-murmur-02",
+      "license": "CC0-1.0",
+      "original_file": {
+        "url": "https://sfxmint.com/dl/crowd-murmur-02.wav",
+        "format": "WAV",
+        "format_name": "wav",
+        "codec": "pcm_s16le",
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "bit_rate_bps": 1411200,
+        "size_bytes": 1764078,
+        "duration_sec": 10
+      },
+      "alternate_mp3_url": "https://sfxmint.com/dl/crowd-murmur-02.mp3",
+      "duration_ms": 10000,
+      "loopable": false,
+      "loop_status": "not_requested",
+      "acoustics": {
+        "attack_ms": 7460,
+        "tail_ms": 2560,
+        "centroid_hz": 1704,
+        "character": [
+          "balanced",
+          "gradual",
+          "sustained"
+        ]
+      },
+      "peaks_url": "https://sfxmint.com/peaks/crowd-murmur-02.json",
+      "family": null,
+      "family_url": null,
+      "checks": [
+        {
+          "requirement": "recommendation eligibility",
+          "state": "satisfied"
+        },
+        {
+          "requirement": "delivered wav duration <= 30000ms",
+          "state": "satisfied",
+          "hard": true,
+          "evidence": "10000ms"
+        },
+        {
+          "requirement": "WAV available and decodable",
+          "state": "satisfied"
+        }
+      ],
+      "metadata_source": "SFXMint full sound metadata + ffprobe of original WAV",
+      "is_original_master": true,
+      "requires_api_key": false,
+      "requires_login": false
+    }
+  ]
+}
