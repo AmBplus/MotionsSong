@@ -2,6 +2,9 @@ name: Build SFX Kit
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".sfx-build-trigger"
 
 permissions:
   contents: write
