@@ -1,42 +1,43 @@
 {
   "name": "MotionsSong 200 Essential Motion SFX",
-  "generated_from": "SFXMint public CC0 API",
-  "license_policy": "CC0-1.0 only",
-  "download_priority": "wav_url",
+  "version": "2026-10-05-curated-v1",
   "requested_count": 200,
   "count": 200,
-  "category_targets": {
-    "whoosh": 18,
-    "slide_swipe": 18,
-    "click": 18,
-    "tick_check": 14,
-    "pop_appear": 12,
-    "ding_notification": 10,
-    "impact_hit": 14,
-    "boom_sub": 8,
-    "riser_reverse": 10,
-    "typing_keyboard": 12,
-    "pencil_writing": 12,
-    "pen_marker_writing": 10,
-    "brush_drawing": 10,
-    "scratch_scribble": 8,
-    "camera": 8,
-    "digital_glitch": 8,
-    "logo_stinger": 10
-  },
+  "license_policy": "CC0-1.0 only",
+  "sources": [
+    "SFXMint",
+    "Kenney via latent-spaces/brag",
+    "Freesound CC0"
+  ],
+  "download_priority": [
+    "wav_url",
+    "direct_url",
+    "preview_ogg_url",
+    "mp3_url",
+    "preview_mp3_url"
+  ],
+  "notes": [
+    "SFXMint and Kenney entries provide direct permanent audio URLs.",
+    "Freesound drawing/writing entries use public OGG preview URLs for direct download; master specifications are recorded, while original master download requires Freesound login/OAuth.",
+    "Catalog selection is metadata/QC curated; not every sound has been human-auditioned in context."
+  ],
   "category_actual": {
     "whoosh": 18,
-    "slide_swipe": 21,
-    "click": 29,
-    "tick_check": 49,
-    "pop_appear": 9,
+    "slide_swipe": 20,
+    "click": 20,
+    "tick_check": 20,
+    "pop_appear": 10,
     "ding_notification": 10,
     "impact_hit": 14,
     "boom_sub": 8,
     "riser_reverse": 4,
-    "typing_keyboard": 36,
-    "digital_glitch": 1,
-    "pencil_writing": 1
+    "typing_keyboard": 20,
+    "digital_glitch": 6,
+    "pencil_writing": 12,
+    "pen_marker_writing": 10,
+    "brush_drawing": 9,
+    "camera": 7,
+    "logo_stinger": 12
   },
   "items": [
     {
@@ -800,6 +801,292 @@
     },
     {
       "id": 26,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-fan-1",
+      "title": "card fan 1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-fan-1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-fan-1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 27,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-fan-2",
+      "title": "card fan 2",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-fan-2.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-fan-2.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 28,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-place-1",
+      "title": "card place 1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 29,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-place-2",
+      "title": "card place 2",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-2.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-2.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 30,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-place-3",
+      "title": "card place 3",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-3.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-3.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 31,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-place-4",
+      "title": "card place 4",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-4.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-4.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 32,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-1",
+      "title": "card slide 1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 33,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-2",
+      "title": "card slide 2",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-2.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-2.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 34,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-3",
+      "title": "card slide 3",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-3.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-3.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 35,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-4",
+      "title": "card slide 4",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-4.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-4.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 36,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-5",
+      "title": "card slide 5",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-5.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-5.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 37,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-6",
+      "title": "card slide 6",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-6.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-6.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 38,
+      "category": "slide_swipe",
+      "slug": "kenney-casino-card-slide-7",
+      "title": "card slide 7",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "casino"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-7.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-7.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 39,
       "category": "click",
       "slug": "ready-click-05",
       "title": "UI click 05",
@@ -826,7 +1113,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 40,
       "category": "click",
       "slug": "office-mouse-click-42",
       "title": "Double Computer Mouse Click 42 (No Reverb)",
@@ -855,7 +1142,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 41,
       "category": "click",
       "slug": "ui-click-08",
       "title": "Wooden User Interface Click 08",
@@ -888,7 +1175,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 42,
       "category": "click",
       "slug": "office-mouse-click-57",
       "title": "Rapid Clicking Computer Mouse Click 57",
@@ -919,7 +1206,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 43,
       "category": "click",
       "slug": "ui-click-30",
       "title": "Soft User Interface Click 30",
@@ -952,7 +1239,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 44,
       "category": "click",
       "slug": "mechanical-equip-02",
       "title": "Soft Item Equip Buckle Click 02",
@@ -985,7 +1272,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 45,
       "category": "click",
       "slug": "ui-unlock-14",
       "title": "Soft Phone Unlock Click 14 (No Reverb)",
@@ -1014,7 +1301,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 46,
       "category": "click",
       "slug": "stopwatch-button-01",
       "title": "Stopwatch Button 01",
@@ -1039,7 +1326,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 47,
       "category": "click",
       "slug": "short-ui-menu-05",
       "title": "Short UI Menu 05 (No Reverb)",
@@ -1069,7 +1356,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 48,
       "category": "click",
       "slug": "short-ui-error-05",
       "title": "Short UI Error 05 (No Reverb)",
@@ -1099,7 +1386,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 49,
       "category": "click",
       "slug": "short-ui-modal-05",
       "title": "Short UI Modal 05",
@@ -1128,7 +1415,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 50,
       "category": "click",
       "slug": "short-ui-confirm-05",
       "title": "Short UI Confirm 05 (No Reverb)",
@@ -1158,7 +1445,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 51,
       "category": "click",
       "slug": "ready-hover-02",
       "title": "UI hover tick 02",
@@ -1184,7 +1471,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 52,
       "category": "click",
       "slug": "ready-pop-01",
       "title": "UI pop 01",
@@ -1210,7 +1497,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 53,
       "category": "click",
       "slug": "ready-toggle-05",
       "title": "UI toggle 05",
@@ -1237,7 +1524,7 @@
       }
     },
     {
-      "id": 41,
+      "id": 54,
       "category": "click",
       "slug": "growth-9b29ebc2d4afaf902acb1bbd-part-1-v1",
       "title": "Flashlight Switch On — Mechanical Click",
@@ -1263,7 +1550,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 55,
       "category": "click",
       "slug": "growth-ebc3167dc5a581b1bc4f9861-part-1-v1",
       "title": "Flashlight Switch Off — Mechanical Click",
@@ -1289,7 +1576,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 56,
       "category": "click",
       "slug": "magic-scifi-hologram-12",
       "title": "Double Holographic Interface Beep 12",
@@ -1319,7 +1606,51 @@
       }
     },
     {
-      "id": 44,
+      "id": 57,
+      "category": "click",
+      "slug": "kenney-interface-click_001",
+      "title": "click 001",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "interface"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_001.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_001.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 58,
+      "category": "click",
+      "slug": "kenney-interface-click_002",
+      "title": "click 002",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "interface"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_002.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_002.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 59,
       "category": "tick_check",
       "slug": "ui-tick-16",
       "title": "Wooden Picker Wheel Detent Tick 16",
@@ -1349,7 +1680,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 60,
       "category": "tick_check",
       "slug": "ui-hover-10",
       "title": "Soft Interface Hover Tick 10 (No Reverb)",
@@ -1378,7 +1709,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 61,
       "category": "tick_check",
       "slug": "ui-toggle-09",
       "title": "Clicky Toggle Switch Flip 09",
@@ -1411,7 +1742,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 62,
       "category": "tick_check",
       "slug": "owner-continuous-20260922-arcade-ball-brick-hit",
       "title": "Crisp Arcade Brick Impact",
@@ -1438,7 +1769,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 63,
       "category": "tick_check",
       "slug": "acoustic-drum-kit-closed-hat-01",
       "title": "Closed Hi-Hat — Single Hit",
@@ -1468,7 +1799,337 @@
       }
     },
     {
-      "id": 49,
+      "id": 64,
+      "category": "tick_check",
+      "slug": "kenney-ui-click1",
+      "title": "click1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 65,
+      "category": "tick_check",
+      "slug": "kenney-ui-click2",
+      "title": "click2",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click2.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click2.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 66,
+      "category": "tick_check",
+      "slug": "kenney-ui-click3",
+      "title": "click3",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click3.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click3.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 67,
+      "category": "tick_check",
+      "slug": "kenney-ui-click4",
+      "title": "click4",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click4.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click4.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 68,
+      "category": "tick_check",
+      "slug": "kenney-ui-click5",
+      "title": "click5",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click5.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click5.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 69,
+      "category": "tick_check",
+      "slug": "kenney-ui-mouseclick1",
+      "title": "mouseclick1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/mouseclick1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/mouseclick1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 70,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch1",
+      "title": "switch1",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch1.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch1.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 71,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch10",
+      "title": "switch10",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch10.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch10.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 72,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch11",
+      "title": "switch11",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch11.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch11.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 73,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch12",
+      "title": "switch12",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch12.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch12.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 74,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch13",
+      "title": "switch13",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch13.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch13.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 75,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch14",
+      "title": "switch14",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch14.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch14.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 76,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch15",
+      "title": "switch15",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch15.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch15.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 77,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch16",
+      "title": "switch16",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch16.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch16.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 78,
+      "category": "tick_check",
+      "slug": "kenney-ui-switch17",
+      "title": "switch17",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "ui"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch17.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch17.ogg",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 79,
       "category": "pop_appear",
       "slug": "ready-pop-05",
       "title": "UI pop 05",
@@ -1495,7 +2156,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 80,
       "category": "pop_appear",
       "slug": "owner-continuous-20260922-speech-pop",
       "title": "Voice Saying Pop",
@@ -1521,7 +2182,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 81,
       "category": "pop_appear",
       "slug": "ui-pop-38",
       "title": "Bubbly Interface Pop 38 (No Reverb)",
@@ -1548,7 +2209,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 82,
       "category": "pop_appear",
       "slug": "cartoon-pop-53",
       "title": "Tiny Cartoon Pop 53",
@@ -1575,7 +2236,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 83,
       "category": "pop_appear",
       "slug": "feedback-merge-03",
       "title": "Sparkling Tile Merge Pop Chime 03",
@@ -1608,7 +2269,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 84,
       "category": "pop_appear",
       "slug": "cartoon-pop-13",
       "title": "Bubble Cartoon Pop 13",
@@ -1641,7 +2302,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 85,
       "category": "pop_appear",
       "slug": "feedback-merge-14",
       "title": "Soft Tile Merge Pop Chime 14",
@@ -1670,7 +2331,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 86,
       "category": "pop_appear",
       "slug": "owner-backlog-20260922-sparkle-pop-pickup",
       "title": "Sparkling Pop Power-Up Pickup",
@@ -1698,7 +2359,7 @@
       }
     },
     {
-      "id": 57,
+      "id": 87,
       "category": "pop_appear",
       "slug": "cartoon-pop-01",
       "title": "Cork Cartoon Pop 01",
@@ -1731,7 +2392,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 88,
       "category": "ding_notification",
       "slug": "owner-2026-09-22-short-confirmation",
       "title": "Soft Digital Confirmation Chime",
@@ -1758,7 +2419,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 89,
       "category": "ding_notification",
       "slug": "feedback-success-01",
       "title": "Soft Rewarding Success Chime 01",
@@ -1791,7 +2452,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 90,
       "category": "ding_notification",
       "slug": "ui-chime-14",
       "title": "Glassy Notification Chime 14",
@@ -1824,7 +2485,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 91,
       "category": "ding_notification",
       "slug": "office-phone-vibrate-58",
       "title": "Double Notification Phone Vibrating 58",
@@ -1854,7 +2515,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 92,
       "category": "ding_notification",
       "slug": "ready-chime-04",
       "title": "Notification chime 04",
@@ -1881,7 +2542,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 93,
       "category": "ding_notification",
       "slug": "feedback-success-73",
       "title": "Warm Gentle Success Chime 73",
@@ -1910,7 +2571,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 94,
       "category": "ding_notification",
       "slug": "futuristic-ui-button-chime-01",
       "title": "Futuristic UI Button Chime 01",
@@ -1937,7 +2598,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 95,
       "category": "ding_notification",
       "slug": "feedback-checkpoint-19",
       "title": "Soft Checkpoint Reached Chime 19",
@@ -1965,7 +2626,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 96,
       "category": "ding_notification",
       "slug": "instrument-chime-bar-36",
       "title": "Warm Vibraphone-Style Chime Bar Strike 36",
@@ -1995,7 +2656,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 97,
       "category": "ding_notification",
       "slug": "feedback-achievement-39",
       "title": "Epic Fanfare Achievement Unlock 39",
@@ -2030,7 +2691,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 98,
       "category": "impact_hit",
       "slug": "owner-2026-09-22-short-small-metal",
       "title": "Small Tinny Metal Impact",
@@ -2057,7 +2718,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 99,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-pedal-hat-01",
       "title": "Pedal Hi-Hat Chick — Single Hit",
@@ -2087,7 +2748,7 @@
       }
     },
     {
-      "id": 70,
+      "id": 100,
       "category": "impact_hit",
       "slug": "impact-punch-05",
       "title": "Meaty Punch Impact 05",
@@ -2120,7 +2781,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 101,
       "category": "impact_hit",
       "slug": "retro-game-hit-02",
       "title": "Short Zap Retro Game Hit 02",
@@ -2153,7 +2814,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 102,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-kick-01",
       "title": "Acoustic Kick Drum — Single Hit",
@@ -2183,7 +2844,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 103,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-snare-01",
       "title": "Acoustic Snare Drum — Single Hit",
@@ -2213,7 +2874,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 104,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-snare-rimshot-01",
       "title": "Snare Rimshot — Single Hit",
@@ -2243,7 +2904,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 105,
       "category": "impact_hit",
       "slug": "transition-impact-hit-42",
       "title": "Layered Trailer Impact Boom 42",
@@ -2273,7 +2934,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 106,
       "category": "impact_hit",
       "slug": "growth-a673083d0564c391f4589f14-part-1-v1",
       "title": "Reverse Impact",
@@ -2298,7 +2959,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 107,
       "category": "impact_hit",
       "slug": "impact-metal-hit-37",
       "title": "Ringing Metal Impact 37 (No Reverb)",
@@ -2325,7 +2986,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 108,
       "category": "impact_hit",
       "slug": "growth-7873eb332dc27e6b4d444a3e-retry",
       "title": "Deep Sub Trailer Impact Boom",
@@ -2353,7 +3014,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 109,
       "category": "impact_hit",
       "slug": "growth-9557345277880cc1b1e3751f-retry",
       "title": "Echoing Trailer Impact Boom",
@@ -2380,7 +3041,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 110,
       "category": "impact_hit",
       "slug": "growth-9d36d9cc30c977aef020ceba-part-1-v1",
       "title": "Giant Stomp Ground Impact",
@@ -2407,7 +3068,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 111,
       "category": "impact_hit",
       "slug": "acoustic-drum-kit-high-tom-01",
       "title": "High Tom Drum — Single Hit",
@@ -2437,7 +3098,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 112,
       "category": "boom_sub",
       "slug": "retro-game-hit-37",
       "title": "Noisy Retro Game Hit 37",
@@ -2466,7 +3127,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 113,
       "category": "boom_sub",
       "slug": "cartoon-bonk-36",
       "title": "Hollow Head Cartoon Bonk Hit 36",
@@ -2495,7 +3156,7 @@
       }
     },
     {
-      "id": 84,
+      "id": 114,
       "category": "boom_sub",
       "slug": "transition-impact-hit-61",
       "title": "Punchy Trailer Impact Boom 61",
@@ -2525,7 +3186,7 @@
       }
     },
     {
-      "id": 85,
+      "id": 115,
       "category": "boom_sub",
       "slug": "impact-explosion-17",
       "title": "Big Cinematic Explosion Blast 17",
@@ -2553,7 +3214,7 @@
       }
     },
     {
-      "id": 86,
+      "id": 116,
       "category": "boom_sub",
       "slug": "impact-explosion-02",
       "title": "Short Explosion Blast 02",
@@ -2586,7 +3247,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 117,
       "category": "boom_sub",
       "slug": "transition-impact-hit-54",
       "title": "Deep Sub Trailer Impact Boom 54",
@@ -2616,7 +3277,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 118,
       "category": "boom_sub",
       "slug": "transition-braam-48",
       "title": "Deep Brassy Cinematic Braam Hit 48",
@@ -2645,7 +3306,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 119,
       "category": "boom_sub",
       "slug": "instrument-gong-40",
       "title": "Large Deep Gong Hit 40",
@@ -2674,7 +3335,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 120,
       "category": "riser_reverse",
       "slug": "transition-riser-01",
       "title": "Synthetic Cinematic Riser 01",
@@ -2707,7 +3368,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 121,
       "category": "riser_reverse",
       "slug": "growth-fb1fde516ce90e9710048635-part-1-v1",
       "title": "Reverse Cymbal Swell",
@@ -2733,7 +3394,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 122,
       "category": "riser_reverse",
       "slug": "reuse-a2a1ba7529489390f0002824",
       "title": "132 BPM Riser",
@@ -2758,7 +3419,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 123,
       "category": "riser_reverse",
       "slug": "growth-5a008d99eaae3b19327c6585-part-1-v1",
       "title": "Soft Airy Riser",
@@ -2784,7 +3445,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 124,
       "category": "typing_keyboard",
       "slug": "owner-continuous-20260922-iphone-typing",
       "title": "Synthetic Touchscreen Keyboard Typing",
@@ -2811,7 +3472,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 125,
       "category": "typing_keyboard",
       "slug": "ui-typing-08",
       "title": "Playful Typing Indicator Dots Tick 08",
@@ -2841,7 +3502,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 126,
       "category": "typing_keyboard",
       "slug": "growth-1f0302639937a62618ccf697-part-1-v1",
       "title": "Quiet Mechanical Keyboard Typing",
@@ -2868,7 +3529,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 127,
       "category": "typing_keyboard",
       "slug": "office-keyboard-33",
       "title": "Single Keypress Keyboard Typing 33",
@@ -2901,7 +3562,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 128,
       "category": "typing_keyboard",
       "slug": "spacebar-press-01",
       "title": "Spacebar Press 01",
@@ -2926,7 +3587,337 @@
       }
     },
     {
-      "id": 99,
+      "id": 129,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-001",
+      "title": "keypress 001",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 130,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-002",
+      "title": "keypress 002",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 131,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-003",
+      "title": "keypress 003",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 132,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-004",
+      "title": "keypress 004",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 133,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-005",
+      "title": "keypress 005",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 134,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-006",
+      "title": "keypress 006",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 135,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-007",
+      "title": "keypress 007",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 136,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-008",
+      "title": "keypress 008",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 137,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-009",
+      "title": "keypress 009",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 138,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-010",
+      "title": "keypress 010",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 139,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-011",
+      "title": "keypress 011",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 140,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-012",
+      "title": "keypress 012",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 141,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-013",
+      "title": "keypress 013",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 142,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-014",
+      "title": "keypress 014",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 143,
+      "category": "typing_keyboard",
+      "slug": "kenney-keyboard-keypress-015",
+      "title": "keypress 015",
+      "matched_query": "Kenney curated CC0 fallback",
+      "tags": [
+        "kenney",
+        "cc0",
+        "keyboard"
+      ],
+      "duration_ms": null,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
+      "mp3_url": null,
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
+      "source": "Kenney via latent-spaces/brag",
+      "verification": "curated source; not human-auditioned in this catalog build",
+      "quality_hint": {}
+    },
+    {
+      "id": 144,
       "category": "digital_glitch",
       "slug": "transition-glitch-08",
       "title": "Soft Digital Glitch Stutter 08 (No Reverb)",
@@ -2955,7 +3946,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 145,
       "category": "pencil_writing",
       "slug": "office-pen-17",
       "title": "Writing Scribble On Paper Pen Clicking 17",
@@ -2988,564 +3979,1155 @@
       }
     },
     {
-      "id": 101,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-fan-1",
-      "title": "card fan 1",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "pop_appear",
+      "slug": "kenney-interface-drop_002",
+      "title": "Soft UI drop / appear accent",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "casino"
+        "interface",
+        "appear",
+        "pop",
+        "drop"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-fan-1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-fan-1.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/drop_002.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/drop_002.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 146
     },
     {
-      "id": 102,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-fan-2",
-      "title": "card fan 2",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "pencil_writing",
+      "slug": "freesound-277312",
+      "title": "Pencil Writing on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "paper",
+        "writing",
+        "drawing"
+      ],
+      "duration_ms": 1074,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/277/277312_2017016-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/277/277312_2017016-lq.ogg",
+      "page_url": "https://freesound.org/s/277312/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "mp3 master",
+        "sample_rate_hz": 44100,
+        "bitrate_kbps": 136,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 147
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-530190",
+      "title": "Pencil or Marker Writing and Scribble on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "marker",
+        "scribble",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 82329,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/530/530190_6652872-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/530/530190_6652872-lq.ogg",
+      "page_url": "https://freesound.org/s/530190/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 148
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-370789",
+      "title": "Pencil Writing on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "paper",
+        "writing"
+      ],
+      "duration_ms": 107242,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/370/370789_2154925-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/370/370789_2154925-lq.ogg",
+      "page_url": "https://freesound.org/s/370789/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 149
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-485310",
+      "title": "Pencil Writing 1_4",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 3750,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/485/485310_9961300-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/485/485310_9961300-lq.ogg",
+      "page_url": "https://freesound.org/s/485310/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 96000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 150
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-337089",
+      "title": "Writing - Pencil 01",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "scratch",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 17606,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/337/337089_5923045-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/337/337089_5923045-lq.ogg",
+      "page_url": "https://freesound.org/s/337089/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 96000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 151
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-615052",
+      "title": "Pencil Scribble",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 7009,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/615/615052_1708550-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/615/615052_1708550-lq.ogg",
+      "page_url": "https://freesound.org/s/615052/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 152
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-444479",
+      "title": "Writing with Pencil on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "signature",
+        "paper",
+        "writing"
+      ],
+      "duration_ms": 25193,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/444/444479_9039079-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/444/444479_9039079-lq.ogg",
+      "page_url": "https://freesound.org/s/444479/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 153
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-538420",
+      "title": "Pen-Pencil Writing on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "pencil",
+        "writing"
+      ],
+      "duration_ms": 34765,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/538/538420_8292597-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/538/538420_8292597-lq.ogg",
+      "page_url": "https://freesound.org/s/538420/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 154
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-485314",
+      "title": "Pencil Writing 1_6",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 5500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/485/485314_9961300-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/485/485314_9961300-lq.ogg",
+      "page_url": "https://freesound.org/s/485314/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 96000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 155
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-570475",
+      "title": "PencilWriting",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "paper",
+        "writing"
+      ],
+      "duration_ms": 34549,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/570/570475_4557590-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/570/570475_4557590-lq.ogg",
+      "page_url": "https://freesound.org/s/570475/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 96000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 156
+    },
+    {
+      "category": "pencil_writing",
+      "slug": "freesound-320151",
+      "title": "Pencil Scratch 1",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pencil",
+        "scratch",
+        "scribble",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 30410,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/320/320151_140737-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/320/320151_140737-lq.ogg",
+      "page_url": "https://freesound.org/s/320151/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 157
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-119926",
+      "title": "Marker Writing on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "marker",
+        "highlighter",
+        "paper",
+        "writing"
+      ],
+      "duration_ms": 30130,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/119/119926_1990698-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/119/119926_1990698-lq.ogg",
+      "page_url": "https://freesound.org/s/119926/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "aiff",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 158
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-751055",
+      "title": "Marker Pen Writes on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "marker",
+        "pen",
+        "pencil",
+        "drawing",
+        "scribble"
+      ],
+      "duration_ms": 5995,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/751/751055_9977365-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/751/751055_9977365-lq.ogg",
+      "page_url": "https://freesound.org/s/751055/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 159
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-457395",
+      "title": "Marker Sounds",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "marker",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 4821,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/457/457395_9341313-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/457/457395_9341313-lq.ogg",
+      "page_url": "https://freesound.org/s/457395/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "mp3 master",
+        "sample_rate_hz": 44100,
+        "bitrate_kbps": 40,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 160
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-337086",
+      "title": "Writing - Pen 01",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "ink",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 17755,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/337/337086_5923045-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/337/337086_5923045-lq.ogg",
+      "page_url": "https://freesound.org/s/337086/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 96000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 161
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-118621",
+      "title": "Writing with Marker",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "marker",
+        "sharpie",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 76940,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/118/118621_1269383-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/118/118621_1269383-lq.ogg",
+      "page_url": "https://freesound.org/s/118621/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 162
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-118622",
+      "title": "Writing with Pen",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "ink",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 61420,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/118/118622_1269383-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/118/118622_1269383-lq.ogg",
+      "page_url": "https://freesound.org/s/118622/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 163
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-655364",
+      "title": "Writing with Markers",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "marker",
+        "board",
+        "drawing",
+        "writing"
+      ],
+      "duration_ms": 25307,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/655/655364_13723333-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/655/655364_13723333-lq.ogg",
+      "page_url": "https://freesound.org/s/655364/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 164
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-449504",
+      "title": "Pen Writing on Paper",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "click",
+        "writing"
+      ],
+      "duration_ms": 4559,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/449/449504_9289641-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/449/449504_9289641-lq.ogg",
+      "page_url": "https://freesound.org/s/449504/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "mp3 master",
+        "sample_rate_hz": 44100,
+        "bitrate_kbps": 205,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 165
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-869160",
+      "title": "Pen Sounds",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "clicking",
+        "writing"
+      ],
+      "duration_ms": 68757,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/869/869160_19216797-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/869/869160_19216797-lq.ogg",
+      "page_url": "https://freesound.org/s/869160/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "m4a master",
+        "sample_rate_hz": 48000,
+        "bitrate_kbps": 131,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 166
+    },
+    {
+      "category": "pen_marker_writing",
+      "slug": "freesound-692903",
+      "title": "Pen Writing",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "pen",
+        "scribble",
+        "writing"
+      ],
+      "duration_ms": 4667,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/692/692903_14718470-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/692/692903_14718470-lq.ogg",
+      "page_url": "https://freesound.org/s/692903/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 167
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-729108",
+      "title": "Brush Painting Sounds",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "painting",
+        "paper"
+      ],
+      "duration_ms": 21999,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/729/729108_13854561-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/729/729108_13854561-lq.ogg",
+      "page_url": "https://freesound.org/s/729108/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 168
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-445458",
+      "title": "Paint Brush Motion",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint",
+        "motion"
+      ],
+      "duration_ms": 8476,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/445/445458_8288413-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/445/445458_8288413-lq.ogg",
+      "page_url": "https://freesound.org/s/445458/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 169
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-487816",
+      "title": "Paint Brush 3",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint"
+      ],
+      "duration_ms": 7167,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/487/487816_4763661-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/487/487816_4763661-lq.ogg",
+      "page_url": "https://freesound.org/s/487816/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 170
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-800732",
+      "title": "Paint Brush Wiping Surface",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "bristles",
+        "surface",
+        "wiping"
+      ],
+      "duration_ms": 23104,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/800/800732_2520418-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/800/800732_2520418-lq.ogg",
+      "page_url": "https://freesound.org/s/800732/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 44100,
+        "bit_depth": 32,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 171
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-487815",
+      "title": "Paint Brush 4",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint"
+      ],
+      "duration_ms": 6250,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/487/487815_4763661-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/487/487815_4763661-lq.ogg",
+      "page_url": "https://freesound.org/s/487815/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 172
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-391442",
+      "title": "Paint Brush Whoosh",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint",
+        "whoosh",
+        "swish"
+      ],
+      "duration_ms": 11435,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/391/391442_7280678-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/391/391442_7280678-lq.ogg",
+      "page_url": "https://freesound.org/s/391442/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 1
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 173
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-487809",
+      "title": "Paint Brush 2",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint"
+      ],
+      "duration_ms": 6083,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/487/487809_4763661-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/487/487809_4763661-lq.ogg",
+      "page_url": "https://freesound.org/s/487809/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 174
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-488027",
+      "title": "Paint Brush 06",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint"
+      ],
+      "duration_ms": 8500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/488/488027_4763661-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/488/488027_4763661-lq.ogg",
+      "page_url": "https://freesound.org/s/488027/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "wav",
+        "sample_rate_hz": 48000,
+        "bit_depth": 24,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 175
+    },
+    {
+      "category": "brush_drawing",
+      "slug": "freesound-86113",
+      "title": "Normal Paint Strokes",
+      "matched_query": "curated CC0 drawing/writing search",
+      "tags": [
+        "brush",
+        "paint",
+        "strokes"
+      ],
+      "duration_ms": 4872,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": null,
+      "mp3_url": null,
+      "direct_url": "https://cdn.freesound.org/previews/86/86113_1275447-lq.ogg",
+      "preview_ogg_url": "https://cdn.freesound.org/previews/86/86113_1275447-lq.ogg",
+      "page_url": "https://freesound.org/s/86113/",
+      "source": "Freesound",
+      "download_kind": "public OGG preview; original master requires Freesound login/OAuth",
+      "master_specs": {
+        "format": "aiff",
+        "sample_rate_hz": 48000,
+        "bit_depth": 16,
+        "channels": 2
+      },
+      "verification": "CC0 license and master specs verified from Freesound page; preview not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 176
+    },
+    {
+      "category": "camera",
+      "slug": "growth-c29e9ce0ab7d75ef75ecd123-part-1-v1",
+      "title": "Camera Flash Recharge",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "flash",
+        "recharge"
+      ],
+      "duration_ms": 1500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/growth-c29e9ce0ab7d75ef75ecd123-part-1-v1.wav",
+      "mp3_url": "https://sfxmint.com/dl/growth-c29e9ce0ab7d75ef75ecd123-part-1-v1.mp3",
+      "direct_url": "https://sfxmint.com/dl/growth-c29e9ce0ab7d75ef75ecd123-part-1-v1.wav",
+      "page_url": "https://sfxmint.com/sounds/growth-c29e9ce0ab7d75ef75ecd123-part-1-v1",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 177
+    },
+    {
+      "category": "camera",
+      "slug": "office-camera-08",
+      "title": "Single DSLR Camera Shutter 08",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "shutter",
+        "dslr"
+      ],
+      "duration_ms": 2000,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/office-camera-08.wav",
+      "mp3_url": "https://sfxmint.com/dl/office-camera-08.mp3",
+      "direct_url": "https://sfxmint.com/dl/office-camera-08.wav",
+      "page_url": "https://sfxmint.com/sounds/office-camera-08",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 178
+    },
+    {
+      "category": "camera",
+      "slug": "camera-focus-motor-01",
+      "title": "Camera Focus Motor 01",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "focus",
+        "motor"
+      ],
+      "duration_ms": 2500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/camera-focus-motor-01.wav",
+      "mp3_url": "https://sfxmint.com/dl/camera-focus-motor-01.mp3",
+      "direct_url": "https://sfxmint.com/dl/camera-focus-motor-01.wav",
+      "page_url": "https://sfxmint.com/sounds/camera-focus-motor-01",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 179
+    },
+    {
+      "category": "camera",
+      "slug": "camera-zoom-motor-01",
+      "title": "Camera Zoom Motor 01",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "zoom",
+        "motor"
+      ],
+      "duration_ms": 2500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/camera-zoom-motor-01.wav",
+      "mp3_url": "https://sfxmint.com/dl/camera-zoom-motor-01.mp3",
+      "direct_url": "https://sfxmint.com/dl/camera-zoom-motor-01.wav",
+      "page_url": "https://sfxmint.com/sounds/camera-zoom-motor-01",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 180
+    },
+    {
+      "category": "camera",
+      "slug": "office-camera-67",
+      "title": "Vintage Film Camera Shutter 67",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "shutter",
+        "film"
+      ],
+      "duration_ms": 2000,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/office-camera-67.wav",
+      "mp3_url": "https://sfxmint.com/dl/office-camera-67.mp3",
+      "direct_url": "https://sfxmint.com/dl/office-camera-67.wav",
+      "page_url": "https://sfxmint.com/sounds/office-camera-67",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 181
+    },
+    {
+      "category": "camera",
+      "slug": "camera-focus-motor-02",
+      "title": "Camera Focus Motor 02",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "focus",
+        "motor"
+      ],
+      "duration_ms": 2500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/camera-focus-motor-02.wav",
+      "mp3_url": "https://sfxmint.com/dl/camera-focus-motor-02.mp3",
+      "direct_url": "https://sfxmint.com/dl/camera-focus-motor-02.wav",
+      "page_url": "https://sfxmint.com/sounds/camera-focus-motor-02",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 182
+    },
+    {
+      "category": "camera",
+      "slug": "camera-zoom-motor-02",
+      "title": "Camera Zoom Motor 02",
+      "matched_query": "curated SFXMint camera",
+      "tags": [
+        "camera",
+        "zoom",
+        "motor"
+      ],
+      "duration_ms": 2500,
+      "loopable": false,
+      "license": "CC0-1.0",
+      "wav_url": "https://sfxmint.com/dl/camera-zoom-motor-02.wav",
+      "mp3_url": "https://sfxmint.com/dl/camera-zoom-motor-02.mp3",
+      "direct_url": "https://sfxmint.com/dl/camera-zoom-motor-02.wav",
+      "page_url": "https://sfxmint.com/sounds/camera-zoom-motor-02",
+      "source": "SFXMint",
+      "verification": "CC0 library result; direct permanent WAV/MP3 URLs",
+      "quality_hint": {},
+      "id": 183
+    },
+    {
+      "category": "digital_glitch",
+      "slug": "kenney-interface-glitch_002",
+      "title": "Digital Glitch 002",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "casino"
+        "interface",
+        "glitch",
+        "digital"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-fan-2.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-fan-2.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/glitch_002.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/glitch_002.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 184
     },
     {
-      "id": 103,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-place-1",
-      "title": "card place 1",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "digital_glitch",
+      "slug": "kenney-interface-glitch_004",
+      "title": "Digital Glitch 004",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "casino"
+        "interface",
+        "glitch",
+        "digital"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-1.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/glitch_004.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/glitch_004.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 185
     },
     {
-      "id": 104,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-place-2",
-      "title": "card place 2",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "digital_glitch",
+      "slug": "kenney-interface-error_005",
+      "title": "UI Error 005",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-2.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-2.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 105,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-place-3",
-      "title": "card place 3",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-3.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-3.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 106,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-place-4",
-      "title": "card place 4",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-place-4.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-place-4.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 107,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-1",
-      "title": "card slide 1",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-1.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 108,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-2",
-      "title": "card slide 2",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-2.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-2.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 109,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-3",
-      "title": "card slide 3",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-3.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-3.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 110,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-4",
-      "title": "card slide 4",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-4.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-4.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 111,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-5",
-      "title": "card slide 5",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-5.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-5.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 112,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-6",
-      "title": "card slide 6",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-6.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-6.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 113,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-7",
-      "title": "card slide 7",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-7.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-7.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 114,
-      "category": "slide_swipe",
-      "slug": "kenney-casino-card-slide-8",
-      "title": "card slide 8",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "casino"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/casino/card-slide-8.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/casino/card-slide-8.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 115,
-      "category": "click",
-      "slug": "kenney-interface-click_001",
-      "title": "click 001",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_001.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_001.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 116,
-      "category": "click",
-      "slug": "kenney-interface-click_002",
-      "title": "click 002",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_002.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_002.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 117,
-      "category": "click",
-      "slug": "kenney-interface-click_003",
-      "title": "click 003",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_003.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_003.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 118,
-      "category": "click",
-      "slug": "kenney-interface-click_004",
-      "title": "click 004",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_004.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_004.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 119,
-      "category": "click",
-      "slug": "kenney-interface-click_005",
-      "title": "click 005",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/click_005.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/click_005.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 120,
-      "category": "click",
-      "slug": "kenney-interface-switch_001",
-      "title": "switch 001",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_001.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_001.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 121,
-      "category": "click",
-      "slug": "kenney-interface-switch_002",
-      "title": "switch 002",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_002.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_002.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 122,
-      "category": "click",
-      "slug": "kenney-interface-switch_004",
-      "title": "switch 004",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_004.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_004.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 123,
-      "category": "click",
-      "slug": "kenney-interface-switch_005",
-      "title": "switch 005",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_005.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_005.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 124,
-      "category": "click",
-      "slug": "kenney-interface-switch_006",
-      "title": "switch 006",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_006.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_006.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 125,
-      "category": "click",
-      "slug": "kenney-interface-switch_007",
-      "title": "switch 007",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "interface"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/switch_007.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/switch_007.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 126,
-      "category": "tick_check",
-      "slug": "kenney-ui-click1",
-      "title": "click1",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
+        "interface",
+        "error",
+        "digital",
         "ui"
       ],
       "duration_ms": null,
@@ -3553,21 +5135,24 @@
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click1.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/error_005.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/error_005.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 186
     },
     {
-      "id": 127,
-      "category": "tick_check",
-      "slug": "kenney-ui-click2",
-      "title": "click2",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "digital_glitch",
+      "slug": "kenney-interface-error_006",
+      "title": "UI Error 006",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
+        "interface",
+        "error",
+        "digital",
         "ui"
       ],
       "duration_ms": null,
@@ -3575,1617 +5160,330 @@
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click2.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click2.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/error_006.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/error_006.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 187
     },
     {
-      "id": 128,
-      "category": "tick_check",
-      "slug": "kenney-ui-click3",
-      "title": "click3",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "digital_glitch",
+      "slug": "kenney-interface-drop_001",
+      "title": "Digital Drop Accent",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "interface",
+        "drop",
+        "transition",
+        "digital"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click3.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click3.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/drop_001.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/drop_001.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 188
     },
     {
-      "id": 129,
-      "category": "tick_check",
-      "slug": "kenney-ui-click4",
-      "title": "click4",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactBell_heavy_000",
+      "title": "Bell Logo Payoff 000",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "payoff",
+        "bell"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click4.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click4.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactBell_heavy_000.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactBell_heavy_000.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 189
     },
     {
-      "id": 130,
-      "category": "tick_check",
-      "slug": "kenney-ui-click5",
-      "title": "click5",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactBell_heavy_003",
+      "title": "Bell Logo Payoff 003",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "payoff",
+        "bell"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/click5.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/click5.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactBell_heavy_003.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactBell_heavy_003.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 190
     },
     {
-      "id": 131,
-      "category": "tick_check",
-      "slug": "kenney-ui-mouseclick1",
-      "title": "mouseclick1",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactBell_heavy_004",
+      "title": "Bell Logo Payoff 004",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "payoff",
+        "bell"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/mouseclick1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/mouseclick1.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactBell_heavy_004.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactBell_heavy_004.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 191
     },
     {
-      "id": 132,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch1",
-      "title": "switch1",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_heavy_000",
+      "title": "Soft Heavy Logo Hit 000",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch1.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch1.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_heavy_000.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_heavy_000.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 192
     },
     {
-      "id": 133,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch10",
-      "title": "switch10",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_heavy_001",
+      "title": "Soft Heavy Logo Hit 001",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch10.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch10.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_heavy_001.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_heavy_001.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 193
     },
     {
-      "id": 134,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch11",
-      "title": "switch11",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_heavy_002",
+      "title": "Soft Heavy Logo Hit 002",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch11.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch11.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_heavy_002.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_heavy_002.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 194
     },
     {
-      "id": 135,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch12",
-      "title": "switch12",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_heavy_003",
+      "title": "Soft Heavy Logo Hit 003",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch12.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch12.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_heavy_003.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_heavy_003.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 195
     },
     {
-      "id": 136,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch13",
-      "title": "switch13",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_heavy_004",
+      "title": "Soft Heavy Logo Hit 004",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch13.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch13.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_heavy_004.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_heavy_004.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 196
     },
     {
-      "id": 137,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch14",
-      "title": "switch14",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-interface-bong_001",
+      "title": "Short Bong Brand Accent",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "interface",
+        "logo",
+        "bong",
+        "accent"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch14.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch14.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/bong_001.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/bong_001.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 197
     },
     {
-      "id": 138,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch15",
-      "title": "switch15",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-interface-select_008",
+      "title": "Clean Select Brand Accent",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "interface",
+        "logo",
+        "select",
+        "accent"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch15.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch15.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/interface/select_008.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/interface/select_008.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 198
     },
     {
-      "id": 139,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch16",
-      "title": "switch16",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_medium_001",
+      "title": "Medium Logo Impact 001",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch16.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch16.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_medium_001.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_medium_001.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 199
     },
     {
-      "id": 140,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch17",
-      "title": "switch17",
-      "matched_query": "Kenney curated CC0 fallback",
+      "category": "logo_stinger",
+      "slug": "kenney-impact-impactSoft_medium_004",
+      "title": "Medium Logo Impact 004",
+      "matched_query": "Kenney curated CC0",
       "tags": [
         "kenney",
         "cc0",
-        "ui"
+        "impact",
+        "logo",
+        "impact"
       ],
       "duration_ms": null,
       "loopable": false,
       "license": "CC0-1.0",
       "wav_url": null,
       "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch17.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch17.ogg",
+      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/impact/impactSoft_medium_004.ogg",
+      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/impact/impactSoft_medium_004.ogg",
       "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 141,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch18",
-      "title": "switch18",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch18.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch18.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 142,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch19",
-      "title": "switch19",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch19.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch19.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 143,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch2",
-      "title": "switch2",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch2.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch2.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 144,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch20",
-      "title": "switch20",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch20.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch20.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 145,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch21",
-      "title": "switch21",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch21.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch21.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 146,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch22",
-      "title": "switch22",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch22.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch22.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 147,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch23",
-      "title": "switch23",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch23.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch23.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 148,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch24",
-      "title": "switch24",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch24.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch24.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 149,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch25",
-      "title": "switch25",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch25.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch25.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 150,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch26",
-      "title": "switch26",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch26.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch26.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 151,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch27",
-      "title": "switch27",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch27.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch27.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 152,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch28",
-      "title": "switch28",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch28.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch28.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 153,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch29",
-      "title": "switch29",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch29.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch29.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 154,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch3",
-      "title": "switch3",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch3.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch3.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 155,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch30",
-      "title": "switch30",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch30.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch30.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 156,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch31",
-      "title": "switch31",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch31.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch31.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 157,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch32",
-      "title": "switch32",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch32.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch32.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 158,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch33",
-      "title": "switch33",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch33.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch33.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 159,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch34",
-      "title": "switch34",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch34.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch34.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 160,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch35",
-      "title": "switch35",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch35.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch35.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 161,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch36",
-      "title": "switch36",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch36.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch36.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 162,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch37",
-      "title": "switch37",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch37.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch37.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 163,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch38",
-      "title": "switch38",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch38.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch38.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 164,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch4",
-      "title": "switch4",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch4.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch4.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 165,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch5",
-      "title": "switch5",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch5.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch5.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 166,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch6",
-      "title": "switch6",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch6.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch6.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 167,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch7",
-      "title": "switch7",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch7.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch7.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 168,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch8",
-      "title": "switch8",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch8.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch8.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 169,
-      "category": "tick_check",
-      "slug": "kenney-ui-switch9",
-      "title": "switch9",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "ui"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": null,
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/ui/switch9.ogg",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/ui/switch9.ogg",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 170,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-001",
-      "title": "keypress 001",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-001.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 171,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-002",
-      "title": "keypress 002",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-002.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 172,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-003",
-      "title": "keypress 003",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-003.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 173,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-004",
-      "title": "keypress 004",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-004.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 174,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-005",
-      "title": "keypress 005",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-005.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 175,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-006",
-      "title": "keypress 006",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-006.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 176,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-007",
-      "title": "keypress 007",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-007.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 177,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-008",
-      "title": "keypress 008",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-008.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 178,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-009",
-      "title": "keypress 009",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-009.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 179,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-010",
-      "title": "keypress 010",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-010.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 180,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-011",
-      "title": "keypress 011",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-011.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 181,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-012",
-      "title": "keypress 012",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-012.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 182,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-013",
-      "title": "keypress 013",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-013.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 183,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-014",
-      "title": "keypress 014",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-014.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 184,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-015",
-      "title": "keypress 015",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-015.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 185,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-016",
-      "title": "keypress 016",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-016.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-016.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-016.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 186,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-017",
-      "title": "keypress 017",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-017.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-017.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-017.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 187,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-018",
-      "title": "keypress 018",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-018.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-018.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-018.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 188,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-019",
-      "title": "keypress 019",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-019.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-019.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-019.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 189,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-020",
-      "title": "keypress 020",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-020.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-020.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-020.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 190,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-021",
-      "title": "keypress 021",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-021.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-021.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-021.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 191,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-022",
-      "title": "keypress 022",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-022.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-022.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-022.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 192,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-023",
-      "title": "keypress 023",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-023.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-023.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-023.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 193,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-024",
-      "title": "keypress 024",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-024.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-024.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-024.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 194,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-025",
-      "title": "keypress 025",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-025.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-025.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-025.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 195,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-026",
-      "title": "keypress 026",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-026.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-026.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-026.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 196,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-027",
-      "title": "keypress 027",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-027.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-027.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-027.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 197,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-028",
-      "title": "keypress 028",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-028.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-028.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-028.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 198,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-029",
-      "title": "keypress 029",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-029.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-029.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-029.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 199,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-030",
-      "title": "keypress 030",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-030.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-030.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-030.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
-    },
-    {
-      "id": 200,
-      "category": "typing_keyboard",
-      "slug": "kenney-keyboard-keypress-031",
-      "title": "keypress 031",
-      "matched_query": "Kenney curated CC0 fallback",
-      "tags": [
-        "kenney",
-        "cc0",
-        "keyboard"
-      ],
-      "duration_ms": null,
-      "loopable": false,
-      "license": "CC0-1.0",
-      "wav_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-031.wav",
-      "mp3_url": null,
-      "direct_url": "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag/assets/sfx/keyboard/keypress-031.wav",
-      "page_url": "https://github.com/latent-spaces/brag/blob/main/skills/brag/assets/sfx/keyboard/keypress-031.wav",
-      "source": "Kenney via latent-spaces/brag",
-      "verification": "curated source; not human-auditioned in this catalog build",
-      "quality_hint": {}
+      "verification": "curated CC0 source; not human-auditioned in this catalog build",
+      "quality_hint": {},
+      "id": 200
     }
   ]
 }
