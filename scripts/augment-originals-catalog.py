@@ -97,6 +97,7 @@ KENNEY = [
 ("impact_hit","impact","impactSoft_medium_002.ogg","Soft Impact Medium 002","https://kenney.nl/assets/impact-sounds"),
 ("impact_hit","impact","impactSoft_medium_003.ogg","Soft Impact Medium 003","https://kenney.nl/assets/impact-sounds"),
 ("impact_hit","impact","impactSoft_medium_004.ogg","Soft Impact Medium 004","https://kenney.nl/assets/impact-sounds"),
+("logo_stinger","impact","impactSoft_heavy_000.ogg","Soft Heavy Logo Impact 000","https://kenney.nl/assets/impact-sounds"),
 ("click","interface","click_001.ogg","Interface Click 001","https://kenney.nl/assets/interface-sounds"),
 ("click","interface","click_002.ogg","Interface Click 002","https://kenney.nl/assets/interface-sounds"),
 ("click","interface","click_003.ogg","Interface Click 003","https://kenney.nl/assets/interface-sounds"),
