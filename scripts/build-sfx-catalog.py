@@ -97,6 +97,103 @@ for c in CATEGORIES:
             "quality_hint":qhint(row)
         })
 
+# Supplemental SFXMint pass for sparse but important motion categories.
+SUPPLEMENTAL = [
+    {"category":"pencil_writing","queries":["office pen","pen writing","writing on paper","paper scribble","pencil","handwriting"],"keywords":["pen","pencil","writing","scribble","paper"],"max_ms":8000},
+    {"category":"brush_drawing","queries":["brush","paint brush","brush stroke","drawing","marker"],"keywords":["brush","paint","drawing","marker"],"max_ms":8000},
+    {"category":"scratch_scribble","queries":["scratch","scribble","paper scratch","vinyl scratch"],"keywords":["scratch","scribble","paper"],"max_ms":6000},
+    {"category":"logo_stinger","queries":["stinger","intro sting","brand reveal","logo","short chime"],"keywords":["sting","stinger","logo","brand","intro","chime"],"max_ms":6000},
+    {"category":"digital_glitch","queries":["glitch","digital","technology","data"],"keywords":["glitch","digital","technology","data"],"max_ms":5000},
+    {"category":"slide_swipe","queries":["swipe","slide","wipe"],"keywords":["swipe","slide","wipe"],"max_ms":4000},
+    {"category":"tick_check","queries":["tick","check","confirm"],"keywords":["tick","check","confirm"],"max_ms":2500},
+    {"category":"typing_keyboard","queries":["keyboard","typing","keypress"],"keywords":["keyboard","typing","key"],"max_ms":8000},
+]
+supp_jobs=[]
+with ThreadPoolExecutor(max_workers=16) as ex:
+    futures=[]
+    for spec in SUPPLEMENTAL:
+        for q in spec["queries"]:
+            futures.append(ex.submit(fetch_search,spec["category"],q,spec["max_ms"]))
+    for fut in as_completed(futures):
+        supp_jobs.append(fut.result())
+
+spec_by_cat={x["category"]:x for x in SUPPLEMENTAL}
+for cat_id,q,rows in supp_jobs:
+    spec=spec_by_cat[cat_id]
+    for row in rows:
+        if len(items)>=170:
+            break
+        slug=row.get("slug")
+        if not slug or slug in used or not row.get("wav_url"):
+            continue
+        if (row.get("license") or "").upper() not in ("CC0","CC0-1.0","CC0 1.0"):
+            continue
+        hay=(" ".join(row.get("tags") or [])+" "+str(row.get("title") or "")).lower()
+        if not any(k in hay for k in spec["keywords"]):
+            continue
+        used.add(slug)
+        items.append({
+            "id":len(items)+1, "category":cat_id, "slug":slug,
+            "title":row.get("title"), "matched_query":q,
+            "tags":row.get("tags") or [], "duration_ms":row.get("duration_ms"),
+            "loopable":row.get("loopable"), "license":"CC0-1.0",
+            "wav_url":row.get("wav_url"), "mp3_url":row.get("mp3_url"),
+            "page_url":row.get("page_url"), "source":"SFXMint",
+            "verification":"metadata-and-library-qc; not human-auditioned",
+            "quality_hint":qhint(row)
+        })
+
+# Fill the remainder with Kenney CC0 files mirrored in latent-spaces/brag.
+# These have stable raw GitHub URLs and include analyzed UI, slide, keyboard and impact families.
+KENNEY_DIRS = [
+    ("slide_swipe","casino",["card-slide","card-place","card-fan"]),
+    ("click","interface",["click_","switch_"]),
+    ("tick_check","ui",["click","switch"]),
+    ("typing_keyboard","keyboard",[""]),
+    ("impact_hit","impact",["impactSoft","impactWood","impactBell"]),
+    ("digital_glitch","interface",["glitch_","error_"]),
+]
+def github_dir(folder):
+    url=f"https://api.github.com/repos/latent-spaces/brag/contents/skills/brag/assets/sfx/{folder}?ref=main"
+    req=urllib.request.Request(url,headers={"User-Agent":"MotionsSong-SFX-Catalog/2.0"})
+    try:
+        with urllib.request.urlopen(req,timeout=15) as r:
+            return json.load(r)
+    except Exception:
+        return []
+
+for cat,folder,patterns in KENNEY_DIRS:
+    if len(items)>=200:
+        break
+    for row in github_dir(folder):
+        if len(items)>=200:
+            break
+        if row.get("type")!="file":
+            continue
+        name=row.get("name") or ""
+        if not name.lower().endswith((".ogg",".wav",".mp3")):
+            continue
+        if patterns!=[""] and not any(p.lower() in name.lower() for p in patterns):
+            continue
+        slug="kenney-"+folder+"-"+name.rsplit(".",1)[0]
+        if slug in used:
+            continue
+        used.add(slug)
+        raw=row.get("download_url")
+        items.append({
+            "id":len(items)+1, "category":cat, "slug":slug,
+            "title":name.rsplit(".",1)[0].replace("_"," ").replace("-"," "),
+            "matched_query":"Kenney curated CC0 fallback",
+            "tags":["kenney","cc0",folder],
+            "duration_ms":None, "loopable":False, "license":"CC0-1.0",
+            "wav_url":raw if name.lower().endswith(".wav") else None,
+            "mp3_url":raw if name.lower().endswith(".mp3") else None,
+            "direct_url":raw,
+            "page_url":row.get("html_url"), "source":"Kenney via latent-spaces/brag",
+            "verification":"curated source; not human-auditioned in this catalog build",
+            "quality_hint":{}
+        })
+
 doc={
     "name":"MotionsSong 200 Essential Motion SFX",
     "generated_from":"SFXMint public CC0 API",
